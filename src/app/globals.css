@@ -33,3 +33,11 @@ body {
     display: none !important;
   }
 }
+
+.bg-dots {
+  background-color: #f6fef9;
+  background-image: radial-gradient(#acc7b7 1px, transparent 1px);
+  background-size: 30px 30px;
+  background-repeat: repeat;
+  background-position: center;
+}

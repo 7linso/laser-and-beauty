@@ -10,7 +10,7 @@ export default function ServicesPage() {
                 {services.map((service, index) => (
                     <div
                         key={index}
-                        className="bg-white rounded-xl shadow-md p-5 hover:shadow-xl transition-shadow duration-300"
+                        className="bg-white rounded-xl shadow-md p-5 hover:shadow-xl border-3 border-teal-700 transition-shadow duration-300"
                     >
                         <img
                             src={service.image}
@@ -26,7 +26,7 @@ export default function ServicesPage() {
                 <h1 className="text-3xl font-bold text-teal-900 mb-8 border-b-2 border-teal-700 pb-2 shadow-[0_4px_2px_-2px_rgba(0,0,0,0.1)]">
                     Important Note!
                 </h1>
-                <div className='bg-white rounded-xl shadow-md p-5 hover:shadow-xl transition-shadow duration-300'>
+                <div className='bg-white rounded-xl shadow-md p-5 hover:shadow-xl border-3 border-teal-700 transition-shadow duration-300'>
                     <h2 className="text-xl font-semibold text-teal-800 mb-2">Cancellation Policy</h2>
                     <p className="text-gray-600">
                         24-hour notice is required for all cancellations
@@ -44,7 +44,6 @@ export default function ServicesPage() {
                         No-show Fee: 100% of service booked.
                         <br/><br/>
                         Please contact the salon if you have any questions.
-
                     </p>
                 </div>
             </div>

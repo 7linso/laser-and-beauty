@@ -23,9 +23,9 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-montserrat">
+      <body className="font-montserrat min-h-screen flex flex-col">
         <Header />
-        <main className="p-4">
+        <main className="p-4 flex-grow bg-dots">
           {children}
         </main>
         <Footer />
