@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
+    const bookingLink = 'https://laserbeauty-room-by-olga-rogozianska-101578.square.site/?fbclid=PAAaZES5tl2oNVz1WO5lwQ-Z8cOr4vxGlBirtF5a7a3iN9AI1DBkg_kqZmBVA'
 
     return (
         <nav className="bg-white shadow-md sticky top-0 z-50">
@@ -24,8 +25,7 @@ export default function Header() {
                         <Link href="/locations" className="hover:text-teal-900 transition">Locations</Link>
                         <Link href="/services" className="hover:text-teal-900 transition">Services</Link>
                         <Link href="/trainings" className="hover:text-teal-900 transition">Trainings</Link>
-                        <Link href="/contact" className="hover:text-teal-900 transition">Contact</Link>
-                        <Link href="/" className="hover:text-white transition border border-gray-400 rounded px-4 py-2 text-sm text-gray-800 hover:bg-teal-900">
+                        <Link href={bookingLink} className="hover:text-white transition border border-gray-400 rounded px-4 py-2 text-sm text-gray-800 hover:bg-teal-900">
                             Book Now
                         </Link>
                     </div>
@@ -36,7 +36,7 @@ export default function Header() {
                         <Link href="/services" className="hover:text-teal-900 transition">Services</Link>
                         <Link href="/trainings" className="hover:text-teal-900 transition">Trainings</Link>
                         <Link href="/contact" className="hover:text-teal-900 transition">Contact</Link>
-                        <Link href="/" className="inline-flex flex-shrink-0 justify-center items-center hover:text-white transition border border-gray-400 rounded px-4 py-2 text-sm text-gray-800 hover:bg-teal-900">
+                        <Link href={bookingLink} className="inline-flex flex-shrink-0 justify-center items-center hover:text-white transition border border-gray-400 rounded px-4 py-2 text-sm text-gray-800 hover:bg-teal-900">
                             Book Now
                         </Link>
                     </div>

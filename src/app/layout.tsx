@@ -24,7 +24,10 @@ export default function RootLayout({
       </head>
       <body className="font-montserrat">
         <Header />
-        {children}
+        <main className="p-4">
+          {children}
+        </main>
+        
       </body>
     </html>
   );

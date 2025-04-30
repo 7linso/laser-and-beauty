@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Laser Hair Removal",
+        "description": "Safe and effective hair removal using cutting-edge laser technology.",
+        "image": "/images/services/laser-hair-removal.jpg"
+    },
+    {
+        "name": "IPL Skin Rejuvenation",
+        "description": "Innovative technic to treat sun damage, redness, and even skin tone.",
+        "image": "/images/services/ipl-skin-rejuvenation.jpg"
+    },
+    {
+        "name": "Sugaring",
+        "description": "A natural hair removal method using sugar paste for smooth skin.",
+        "image": "/images/services/sugaring.jpg"
+    },
+    {
+        "name": "Waxing",
+        "description": "Traditional waxing services for various body areas.",
+        "image": "/images/services/waxing.jpg"
+    },
+    {
+        "name": "Manicure",
+        "description": "Professional nail care and styling for hands.",
+        "image": "/images/services/manicure.jpg"
+    },
+    {
+        "name": "Pedicure",
+        "description": "Relaxing and detailed foot care including nail treatment.",
+        "image": "/images/services/pedicure.jpg"
+    }
+]

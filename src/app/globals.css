@@ -7,7 +7,6 @@ body {
 @media(max-width: 859px) {
   .custom-collapse {
     display: none;
-    /* Hide regular nav links */
   }
 
   .custom-menu {
