@@ -1,13 +1,13 @@
-# Manuka Spa Website Redesign
+# Laser&Beauty Website Redesign
 
-Welcome to the repository for the **Manuka Spa** website redesign project.  
-This project recreates and refreshes the existing [Manuka Spa website](https://manukaspawpg.com) with improvements to design, responsiveness, and user experience.
+Welcome to the repository for the **Laser&Beauty** website redesign project.  
+This project recreates and refreshes the existing [Laser&Beauty website](https://laserbeauty.taplink.ws/?fbclid=PAAab2yWzEWJGwUiU9ORyVP6QiTFFIKQ5oef39g9oPs_gNzLPKw_7Ytb-wj0o) with improvements to design, responsiveness, and user experience.
 
 ---
 
 ## ✨ Project Overview
 
-**Manuka Spa** is a wellness and beauty spa based in Winnipeg. The current website provides essential business information, but there's room to enhance its visual appeal, responsiveness, and overall usability.
+**Laser&Beauty** is a laser and beauty studio based in Winnipeg. The current website provides essential business information, but there's room to enhance its visual appeal, responsiveness, and overall usability.
 
 This project involves rebuilding the application with modern technologies while retaining the essential functionality and aesthetic essence of the original.
 
