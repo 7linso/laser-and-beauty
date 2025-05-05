@@ -2,7 +2,17 @@ import Link from "next/link";
 
 export default function TrainingsPage() {
     const bookingLink = 'https://laserbeauty-room-by-olga-rogozianska-101578.square.site/?fbclid=PAAaZES5tl2oNVz1WO5lwQ-Z8cOr4vxGlBirtF5a7a3iN9AI1DBkg_kqZmBVA'
-    const videoSource = "https://www.youtube.com/embed/wVaVFqjKD20"
+    const videoSource = <>
+        <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/wVaVFqjKD20"
+            title="squat 100kg/225lbx10 with me🤩 #fitness #lowerbodyexercise"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+        ></iframe>
+    </>
 
     return <>
         <div className="max-w-5xl mx-auto px-4 py-4">
@@ -49,18 +59,9 @@ export default function TrainingsPage() {
                 <div className="flex-1 bg-white rounded-xl shadow-md p-5 hover:shadow-xl border-3 border-teal-700 transition-shadow duration-300">
                     <h3 className="text-lg font-semibold text-teal-800 mb-4 text-center">Watch the Course Preview</h3>
                     <div className="relative w-full aspect-[9/16] overflow-hidden rounded-lg">
-                        <iframe
-                            className="absolute top-0 left-0 w-full h-full"
-                            src={videoSource}
-                            title="squat 100kg/225lbx10 with me🤩 #fitness #lowerbodyexercise"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerPolicy="strict-origin-when-cross-origin"
-                            allowFullScreen
-                        ></iframe>
+                        {videoSource}
                     </div>
                 </div>
-
             </div>
         </div>
     </>
