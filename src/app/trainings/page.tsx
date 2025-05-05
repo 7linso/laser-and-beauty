@@ -16,22 +16,24 @@ export default function TrainingsPage() {
 
     return <>
         <div className="max-w-5xl mx-auto px-4 py-4">
-            <h1 className="text-3xl font-bold text-teal-900 mb-8 border-b-2 border-teal-700 pb-2 shadow-[0_4px_2px_-2px_rgba(0,0,0,0.1)]">
+            <h1 className="text-4xl font-bold text-teal-900 mb-10 border-b-4 border-teal-700 inline-block pb-3">
                 Get Certified & Launch Your Career!
             </h1>
             <div className="flex flex-col md:flex-row custom-two-column gap-6">
-                <div className="flex-1 bg-white rounded-xl shadow-md p-5 hover:shadow-xl border-3 border-teal-700 transition-shadow duration-300">
-                    <h2 className="text-xl font-semibold text-teal-800 mb-2">
+                <div className="flex-1 bg-white rounded-2xl shadow-lg border border-teal-300 p-6 transition hover:shadow-2xl">
+                    <h2 className="text-2xl font-semibold text-teal-800 mb-3">
                         Ready to begin a new chapter?
                     </h2>
-                    <p className="text-gray-600 mb-4">
+                    <p className="text-gray-600 mb-4 leading-relaxed">
                         This course is thoughtfully designed to give you the skills and confidence you need to launch your own sugaring business. Whether you're starting from scratch or looking to enhance your knowledge, you're in the right place!
                     </p>
-                    <p className="text-gray-600 mb-6">
+                    <p className="text-gray-600 mb-6 leading-relaxed">
                         By the end of this training, you'll understand all the essentials of professional sugaring, including theory, technique, and client care.
                     </p>
-                    <h2 className="text-xl font-semibold text-teal-800 mb-2">Day 1: Foundation & Fundamentals</h2>
-                    <ul className="list-disc list-inside text-gray-700 mb-6">
+                    <h2 className="text-2xl font-semibold text-teal-800 mb-3">
+                        Day 1: Foundation & Fundamentals
+                    </h2>
+                    <ul className="list-disc list-inside text-gray-700 mb-6 leading-relaxed">
                         <li>Introduction to sugaring & its benefits</li>
                         <li>Hair and skin anatomy</li>
                         <li>Hygiene protocols: sanitation & disinfection</li>
@@ -40,24 +42,32 @@ export default function TrainingsPage() {
                         <li>Studio setup for success</li>
                         <li>How to conduct professional client consultations</li>
                     </ul>
-                    <h2 className="text-xl font-semibold text-teal-800 mb-2">Day 2: Hands-On Practice & Mastery</h2>
+                    <h2 className="text-2xl font-semibold text-teal-800 mb-3">
+                        Day 2: Hands-On Practice & Mastery
+                    </h2>
                     <ul className="list-disc list-inside text-gray-700 mb-6">
                         <li>Live demonstrations: legs, bikini, underarms, face & Brazilian</li>
                         <li>Supervised hands-on practice for each treatment area</li>
                         <li>Troubleshooting common issues</li>
                         <li>Understanding paste types & heating techniques</li>
                     </ul>
-                    <h2 className="text-xl font-semibold text-teal-800 mb-2">Prefer Waxing Instead?</h2>
+                    <h2 className="text-2xl font-semibold text-teal-800 mb-3">
+                        Prefer Waxing Instead?
+                    </h2>
                     <p className="text-gray-700 mb-4">
-                        If sugaring isn't quite what you're looking for, we also offer a complete professional waxing course that covers everything you need to get started.
+                        If sugaring isn't quite what you're looking for, we also
+                        offer a complete professional waxing course that covers
+                        everything you need to get started.
                     </p>
                     <Link href={bookingLink}
                         className="inline-block bg-teal-700 text-white font-medium py-2 px-4 rounded hover:bg-teal-800 transition">
                         Book Waxing Course
                     </Link>
                 </div>
-                <div className="flex-1 bg-white rounded-xl shadow-md p-5 hover:shadow-xl border-3 border-teal-700 transition-shadow duration-300">
-                    <h3 className="text-lg font-semibold text-teal-800 mb-4 text-center">Watch the Course Preview</h3>
+                <div className="flex-1 bg-white rounded-2xl shadow-lg border border-teal-300 p-6 transition hover:shadow-2xl">
+                    <h3 className="text-lg font-semibold text-teal-800 mb-4 text-center"
+                    >Watch the Course Preview
+                    </h3>
                     <div className="relative w-full aspect-[9/16] overflow-hidden rounded-lg">
                         {videoSource}
                     </div>

@@ -34,10 +34,26 @@ body {
   .custom-two-column {
     flex-direction: column;}
 }
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 860px) and (max-width: 1050px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1051px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 .bg-dots {
-  background-color: #f6fef9;
-  background-image: radial-gradient(#acc7b7 1px, transparent 1px);
+  background-color: #4fb9aeaf;
+  background-image: radial-gradient(#05998c 1px, transparent 1px);
   background-size: 30px 30px;
   background-repeat: repeat;
   background-position: center;

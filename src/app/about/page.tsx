@@ -7,17 +7,17 @@ export default function AboutPage() {
     return (
         <>
             <div className="max-w-5xl mx-auto px-4 py-4">
-                <h1 className="text-3xl font-bold text-teal-900 mb-8 border-b-2 border-teal-700 pb-2 shadow-[0_4px_2px_-2px_rgba(0,0,0,0.1)]">
+                <h1 className="text-4xl font-bold text-teal-900 mb-10 border-b-4 border-teal-700 inline-block pb-3">
                     About Laser&Beauty by Olga
                 </h1>
                 <div className="flex mb-5 flex-col md:flex-row custom-two-column gap-6">
-                    <div className="flex-1 bg-white rounded-xl shadow-md p-5 hover:shadow-xl border-3 border-teal-700 transition-shadow duration-300">
+                    <div className="flex-1 bg-white rounded-2xl shadow-lg border border-teal-300 p-6 transition hover:shadow-2xl">
                         <div className="flex flex-col md:flex-row gap-4">
                             <div className="md:w-2/3">
-                                <h2 className="text-xl font-semibold text-teal-800 mb-2">
+                                <h2 className="text-2xl font-semibold text-teal-800 mb-3">
                                     A Journey of Passion and Purpose
                                 </h2>
-                                <p className="text-gray-600 mb-4">
+                                <p className="text-gray-700 mb-4 leading-relaxed">
                                     My name is Olga, and I’m a certified esthetician
                                     with nearly 20 years of experience in the beauty
                                     industry. Born and raised in Ukraine, I owned
@@ -36,7 +36,7 @@ export default function AboutPage() {
                                     service.
                                 </p>
                                 <Link href="/services"
-                                    className="inline-block bg-teal-700 text-white font-medium py-2 px-4 rounded hover:bg-teal-800 transition">
+                                    className="inline-block bg-teal-700 text-white font-semibold py-2 px-6 rounded-full hover:bg-teal-800 transition">
                                     Explore Services
                                 </Link>
                             </div>
@@ -51,13 +51,13 @@ export default function AboutPage() {
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row custom-two-column gap-6">
-                    <div className="flex-1 bg-white rounded-xl shadow-md p-5 hover:shadow-xl border-3 border-teal-700 transition-shadow duration-300">
+                    <div className="flex-1 bg-white rounded-2xl shadow-lg border border-teal-300 p-6 transition hover:shadow-2xl">
                         <div className="flex flex-col md:flex-row gap-4">
                             <div className="md:w-2/3">
-                                <h2 className="text-xl font-semibold text-teal-800 mb-2">
+                                <h2 className="text-2xl font-semibold text-teal-800 mb-3">
                                     What Drives Me
                                 </h2>
-                                <p className="text-gray-600 mb-4">
+                                <p className="text-gray-700 mb-4 leading-relaxed">
                                     I love my job and truly enjoy meeting new people.
                                     Providing high-quality, personalized services
                                     is not just my work—it’s my calling. Every
@@ -65,10 +65,10 @@ export default function AboutPage() {
                                     professionalism, and the commitment to help
                                     them look and feel their best.
                                 </p>
-                                <h2 className="text-xl font-semibold text-teal-800 mb-2">
+                                <h2 className="text-2xl font-semibold text-teal-800 mb-3">
                                     Building a Beauty Community
                                 </h2>
-                                <p className="text-gray-600 mb-4">
+                                <p className="text-gray-700 mb-4 leading-relaxed">
                                     Today, I offer advanced treatments and professional
                                     training courses for those who want to build
                                     their own path in the beauty industry. Whether
@@ -77,7 +77,7 @@ export default function AboutPage() {
                                     to guide and support you every step of the way.
                                 </p>
                                 <Link href={bookingLink}
-                                    className="inline-block bg-teal-700 text-white font-medium py-2 px-4 rounded hover:bg-teal-800 transition">
+                                    className="inline-block bg-teal-700 text-white font-semibold py-2 px-6 rounded-full hover:bg-teal-800 transition">
                                     Book Now
                                 </Link>
                             </div>
@@ -91,29 +91,29 @@ export default function AboutPage() {
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div className="max-w-5xl mx-auto px-4 py-4">
-                <h1 className="text-3xl font-bold text-teal-900 mb-8 border-b-2 border-teal-700 pb-2 shadow-[0_4px_2px_-2px_rgba(0,0,0,0.1)]">
-                    Meet Our Team
-                </h1>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {team.map((t, index) => (
-                        <div
-                            key={index}
-                            className="bg-white rounded-xl shadow-md p-5 hover:shadow-xl border-3 border-teal-700 transition-shadow duration-300"
-                        >
-                            <img
-                                src={t.image}
-                                alt={t.name}
-                                className="w-full h-48 object-cover rounded-lg mb-4"
-                            />
-                            <h2 className="text-xl font-semibold text-teal-800 mb-2">{t.name}</h2>
-                            <p className="text-gray-600">{t.description}</p>
-                        </div>
-                    ))}
+                <div className="max-w-6xl mx-auto px-4 py-10">
+                    <h1 className="text-4xl font-bold text-teal-900 mb-10 border-b-4 border-teal-700 inline-block pb-3 shadow-sm">
+                        Meet Our Team
+                    </h1>
+                    <div className="team-grid gap-8">
+                        {team.map((t, index) => (
+                            <div
+                                key={index}
+                                className="bg-white rounded-2xl shadow-md hover:shadow-2xl border border-teal-300 p-6 text-center transition-all"
+                            >
+                                <img
+                                    src={t.image}
+                                    alt={t.name}
+                                    className="w-28 h-28 mx-auto mb-4 object-cover rounded-full border-4 border-teal-500 shadow"
+                                />
+                                <h2 className="text-xl font-semibold text-teal-800 mb-2">{t.name}</h2>
+                                <p className="text-gray-600 text-sm leading-relaxed">{t.description}</p>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
+
         </>
     );
 
