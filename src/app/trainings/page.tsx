@@ -25,10 +25,16 @@ export default function TrainingsPage() {
                         Ready to begin a new chapter?
                     </h2>
                     <p className="text-gray-600 mb-4 leading-relaxed">
-                        This course is thoughtfully designed to give you the skills and confidence you need to launch your own sugaring business. Whether you're starting from scratch or looking to enhance your knowledge, you're in the right place!
+                        This course is thoughtfully designed to give you
+                        the skills and confidence you need to launch
+                        your own sugaring business. Whether you&apos;re starting
+                        from scratch or looking to enhance your knowledge,
+                        you&apos;re in the right place!
                     </p>
                     <p className="text-gray-600 mb-6 leading-relaxed">
-                        By the end of this training, you'll understand all the essentials of professional sugaring, including theory, technique, and client care.
+                        By the end of this training, you&apos;ll understand
+                        all the essentials of professional sugaring,
+                        including theory, technique, and client care.
                     </p>
                     <h2 className="text-2xl font-semibold text-teal-800 mb-3">
                         Day 1: Foundation & Fundamentals
@@ -55,12 +61,12 @@ export default function TrainingsPage() {
                         Prefer Waxing Instead?
                     </h2>
                     <p className="text-gray-700 mb-4">
-                        If sugaring isn't quite what you're looking for, we also
+                        If sugaring isn&apos;t quite what you&apos;re looking for, we also
                         offer a complete professional waxing course that covers
                         everything you need to get started.
                     </p>
                     <Link href={bookingLink}
-                        className="inline-block bg-teal-700 text-white font-medium py-2 px-4 rounded hover:bg-teal-800 transition">
+                        className="inline-block bg-teal-700 text-white font-semibold py-2 px-6 rounded-full hover:bg-teal-800 transition">
                         Book Waxing Course
                     </Link>
                 </div>

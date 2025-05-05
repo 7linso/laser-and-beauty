@@ -8,11 +8,13 @@ body {
   .custom-collapse {
     display: none;
   }
+
   .custom-menu {
     display: flex !important;
     flex-direction: column;
     gap: 1rem;
   }
+
   .custom-toggle {
     display: block !important;
   }
@@ -22,9 +24,11 @@ body {
   .custom-toggle {
     display: none !important;
   }
+
   .custom-collapse {
     display: flex !important;
   }
+
   .custom-menu {
     display: none !important;
   }
@@ -32,8 +36,10 @@ body {
 
 @media (min-width: 860px) and (max-width: 1050px) {
   .custom-two-column {
-    flex-direction: column;}
+    flex-direction: column;
+  }
 }
+
 .team-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -52,9 +58,11 @@ body {
 }
 
 .bg-dots {
-  background-color: #4fb9aeaf;
-  background-image: radial-gradient(#05998c 1px, transparent 1px);
-  background-size: 30px 30px;
-  background-repeat: repeat;
-  background-position: center;
+  background:
+    radial-gradient(#05998c 1px, transparent 1px),
+    linear-gradient(to bottom, #a0f0e8, #057c70);
+  background-size: 30px 30px, cover;
+  background-repeat: repeat, no-repeat;
+  background-position: center, center;
+  background-attachment: fixed;
 }

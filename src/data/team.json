@@ -1,17 +1,26 @@
 [
     {
         "name": "Olga",
-        "description": "Loc",
+        "location": "All Locations",
+        "description": " The owner of the business and a seasoned professional with over 20 years of experience in the beauty industry. She specializes in laser hair removal, sugaring, and waxing, and also offers professional training for aspiring estheticians. Passionate about quality and education, Olga is committed to helping clients achieve great results and supporting the next generation of beauty experts.",
         "image": "/images/services/laser-hair-removal.jpg"
     },
     {
         "name": "Iryna",
-        "description": "Loc",
+        "location": "St. Vital",
+        "description": "Certified Hair Removal Specialist with over 5 years of experience.  She is also highly skilled in sugaring and waxing, offering gentle and effective hair removal services. Passionate about her work, Iryna is committed to delivering real results and helping each client feel confident and comfortable in their skin.",
         "image": "/images/services/laser-hair-removal.jpg"
     },
     {
-        "name": "Hz",
-        "description": "Loc",
+        "name": "Viktoriia",
+        "location": "Downtown",
+        "description": "Skilled Laser Hair Removal Technician and an expert in sugaring and waxing. Known for her precision and gentle approach, she is dedicated to providing high-quality treatments and making clients feel confident and cared for. Viktoriia brings professionalism and positive energy to every appointment.",
+        "image": "/images/services/laser-hair-removal.jpg"
+    },
+    {
+        "name": "Alex",
+        "location": "Bridgewater",
+        "description": "Talented nail technician specializing in manicures and pedicures, with a focus on problematic nails, including ingrown toenails, corns, and calluses. In addition to expert foot care, Alex also offers makeup services and lash lifting. Known for attention to detail and a gentle approach, Alex helps every client look and feel their best.",
         "image": "/images/services/laser-hair-removal.jpg"
     }
 ]

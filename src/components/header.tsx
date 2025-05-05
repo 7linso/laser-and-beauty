@@ -14,7 +14,7 @@ export default function Header() {
     const bookingLink = 'https://laserbeauty-room-by-olga-rogozianska-101578.square.site/?fbclid=PAAaZES5tl2oNVz1WO5lwQ-Z8cOr4vxGlBirtF5a7a3iN9AI1DBkg_kqZmBVA'
 
     return (
-        <nav className="bg-teal-900 text-gray-200 hover:text-white shadow-md sticky top-0 z-50">
+        <nav className="bg-teal-900 text-gray-200 shadow-md sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     <div className="text-xl font-bold text-white">
@@ -29,25 +29,24 @@ export default function Header() {
                         </button>
                     </div>
                     <div className="hidden md:flex items-center space-x-6 font-medium">
-                        <Link href="/about" className="transition hover:text-white">About</Link>
-                        <Link href="/locations" className="transition hover:text-white">Locations</Link>
-                        <Link href="/services" className="transition hover:text-white">Services</Link>
-                        <Link href="/trainings" className="transition hover:text-white">Trainings</Link>
+                        <Link href="/about" className="transition hover:text-teal-100">About</Link>
+                        <Link href="/locations" className="transition hover:text-teal-100">Locations</Link>
+                        <Link href="/services" className="transition hover:text-teal-100">Services</Link>
+                        <Link href="/trainings" className="transition hover:text-teal-100">Trainings</Link>
                         <Link href={bookingLink}
-                            className="hover:text-white transition border border-gray-400 rounded px-4 py-2 text-sm hover:bg-teal-800">
+                            className="inline-block bg-teal-700 text-white font-semibold py-2 px-6 rounded-full hover:bg-teal-800 transition">
                             Book Now
                         </Link>
                     </div>
                 </div>
                 {isOpen && (
-                    <div className="md:hidden flex flex-col space-y-2 py-4 font-medium">
-                        <Link href="/about" className="transition hover:text-white">About</Link>
-                        <Link href="/locations" className="transition hover:text-white">Locations</Link>
-                        <Link href="/services" className="transition hover:text-white">Services</Link>
-                        <Link href="/trainings" className="transition hover:text-white">Trainings</Link>
-                        <Link href="/contact" className="transition hover:text-white">Contact</Link>
+                    <div className="md:hidden text-center flex flex-col space-y-2 py-4 font-medium">
+                        <Link href="/about" className="transition hover:text-teal-100">About</Link>
+                        <Link href="/locations" className="transition hover:text-teal-100">Locations</Link>
+                        <Link href="/services" className="transition hover:text-teal-100">Services</Link>
+                        <Link href="/trainings" className="transition hover:text-teal-100">Trainings</Link>
                         <Link href={bookingLink}
-                            className="inline-flex justify-center items-center transition border border-gray-400 rounded px-4 py-2 text-sm hover:bg-teal-700">
+                            className="inline-block bg-teal-700 text-white font-semibold py-2 px-6 rounded-full hover:bg-teal-600 transition">
                             Book Now
                         </Link>
                     </div>
