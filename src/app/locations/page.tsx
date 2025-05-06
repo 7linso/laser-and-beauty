@@ -1,6 +1,7 @@
 import Link from "next/link"
 import locations from '@/data/locations.json'
 import Image from "next/image"
+import Button from "@/components/button"
 
 export default function LocationsPage() {
     return (
@@ -26,10 +27,7 @@ export default function LocationsPage() {
                                     <p className="text-gray-700 my-4 leading-relaxed">
                                         {location.description}
                                     </p>
-                                    <Link href={location.linkBooking}
-                                        className="inline-block bg-teal-700 text-white font-semibold py-2 px-6 rounded-full hover:bg-teal-800 transition">
-                                        Explore Services Here
-                                    </Link>
+                                    <Button bookingLink={location.linkBooking} buttonText="Explore Services Here"/>
                                 </div>
                                 <div className="md:w-1/3 flex justify-center items-end">
                                     <Image

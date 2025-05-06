@@ -1,18 +1,9 @@
-import Link from "next/link";
+import VideoPlayer from "@/components/video-player";
+import Button from "@/components/button";
 
 export default function TrainingsPage() {
     const bookingLink = 'https://laserbeauty-room-by-olga-rogozianska-101578.square.site/?fbclid=PAAaZES5tl2oNVz1WO5lwQ-Z8cOr4vxGlBirtF5a7a3iN9AI1DBkg_kqZmBVA'
-    const videoSource = <>
-        <iframe
-            className="absolute top-0 left-0 w-full h-full"
-            src="https://www.youtube.com/embed/wVaVFqjKD20"
-            title="squat 100kg/225lbx10 with me🤩 #fitness #lowerbodyexercise"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-        ></iframe>
-    </>
+    const videoSource = 'https://res.cloudinary.com/dnxrobolb/video/upload/v1746549568/video_2025-05-06_11-38-31_dxaxng.mp4'
 
     return <>
         <div className="max-w-5xl mx-auto px-4 py-4">
@@ -65,17 +56,14 @@ export default function TrainingsPage() {
                         offer a complete professional waxing course that covers
                         everything you need to get started.
                     </p>
-                    <Link href={bookingLink}
-                        className="inline-block bg-teal-700 text-white font-semibold py-2 px-6 rounded-full hover:bg-teal-800 transition">
-                        Book Waxing Course
-                    </Link>
+                    <Button bookingLink={bookingLink} />
                 </div>
                 <div className="flex-1 bg-white rounded-2xl shadow-lg border border-teal-300 p-6 transition hover:shadow-2xl">
                     <h3 className="text-lg font-semibold text-teal-800 mb-4 text-center"
                     >Watch the Course Preview
                     </h3>
                     <div className="relative w-full aspect-[9/16] overflow-hidden rounded-lg">
-                        {videoSource}
+                        <VideoPlayer link={videoSource} />
                     </div>
                 </div>
             </div>
