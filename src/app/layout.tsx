@@ -43,7 +43,8 @@ export default function RootLayout({
           href="https://res.cloudinary.com/dnxrobolb/image/upload/w_32,h_32,c_scale/v1746538408/favicon_jpl0nh.png"
         />
 
-
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=location_on" />
+        
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
