@@ -1,5 +1,6 @@
 import Link from "next/link"
 import locations from '@/data/locations.json'
+import Image from "next/image"
 
 export default function LocationsPage() {
     const bookingLink = 'https://laserbeauty-room-by-olga-rogozianska-101578.square.site/?fbclid=PAAaZES5tl2oNVz1WO5lwQ-Z8cOr4vxGlBirtF5a7a3iN9AI1DBkg_kqZmBVA'
@@ -27,15 +28,17 @@ export default function LocationsPage() {
                                     <p className="text-gray-700 my-4 leading-relaxed">
                                         {location.description}
                                     </p>
-                                    <Link href={bookingLink}
+                                    <Link href={location.linkBooking}
                                         className="inline-block bg-teal-700 text-white font-semibold py-2 px-6 rounded-full hover:bg-teal-800 transition">
                                         Explore Services Here
                                     </Link>
                                 </div>
                                 <div className="md:w-1/3 flex justify-center items-end">
-                                    <img
+                                    <Image
+                                        width={100}
+                                        height={100}
                                         src={location.image}
-                                        alt={location.location}
+                                        alt={location.address}
                                         className="rounded-lg shadow-lg w-full max-w-xs object-cover"
                                     />
                                 </div>

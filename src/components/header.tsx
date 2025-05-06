@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react'
 import { FiMenu, FiX } from 'react-icons/fi';
+import Image from 'next/image';
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -20,11 +21,14 @@ export default function Header() {
                 <div className="flex justify-between items-center h-16">
                     <div className="text-xl font-semibold text-white flex items-center gap-2">
                         <div className="w-12 h-12 flex items-center justify-center overflow-hidden">
-                            <img
-                                src="https://res.cloudinary.com/dnxrobolb/image/upload/v1746469470/favicon_vfsqba.ico"
+                            <Image
+                                src="https://res.cloudinary.com/dnxrobolb/image/upload/v1746538408/favicon_jpl0nh.png"
                                 alt="icon"
+                                width={48}
+                                height={48}
                                 className="w-12 h-12 rounded-full object-cover"
                             />
+
                         </div>
                         <Link href="/" className="hover:text-teal-100 transition">Laser&Beauty by Olga</Link>
                     </div>

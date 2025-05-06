@@ -1,5 +1,6 @@
 import services from '@/data/services.json'
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function ServicesPage() {
     const bookingLink = 'https://laserbeauty-room-by-olga-rogozianska-101578.square.site/?fbclid=PAAaZES5tl2oNVz1WO5lwQ-Z8cOr4vxGlBirtF5a7a3iN9AI1DBkg_kqZmBVA'
@@ -13,7 +14,9 @@ export default function ServicesPage() {
                 {services.map((service, index) => (
                     <div key={index}
                         className="flex flex-col bg-white rounded-2xl shadow-lg border border-teal-300 p-6 transition hover:shadow-2xl">
-                        <img
+                        <Image
+                            width={100}
+                            height={100}
                             src={service.image}
                             alt={service.name}
                             className="w-full h-48 object-cover rounded-lg mb-4"

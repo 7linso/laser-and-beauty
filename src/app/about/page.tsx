@@ -1,5 +1,6 @@
 import Link from "next/link";
 import team from '@/data/team.json'
+import Image from "next/image";
 
 export default function AboutPage() {
     const bookingLink = 'https://laserbeauty-room-by-olga-rogozianska-101578.square.site/?fbclid=PAAaZES5tl2oNVz1WO5lwQ-Z8cOr4vxGlBirtF5a7a3iN9AI1DBkg_kqZmBVA'
@@ -41,7 +42,9 @@ export default function AboutPage() {
                                 </Link>
                             </div>
                             <div className="md:w-1/3 flex justify-center items-end">
-                                <img
+                                <Image
+                                    width={100}
+                                    height={100}
                                     src="/images/olga.jpg"
                                     alt="Olga portrait"
                                     className="rounded-lg shadow-lg w-full max-w-xs object-cover"
@@ -82,7 +85,9 @@ export default function AboutPage() {
                                 </Link>
                             </div>
                             <div className="md:w-1/3 flex justify-center items-end">
-                                <img
+                                <Image
+                                    width={100}
+                                    height={100}
                                     src="/images/olga.jpg"
                                     alt="Olga portrait"
                                     className="rounded-lg shadow-lg w-full max-w-xs object-cover"
@@ -101,7 +106,9 @@ export default function AboutPage() {
                                 key={index}
                                 className="bg-white rounded-2xl shadow-md hover:shadow-2xl border border-teal-300 p-6 transition-all"
                             >
-                                <img
+                                <Image
+                                    width={100}
+                                    height={100}
                                     src={t.image}
                                     alt={t.name}
                                     className="w-28 h-28 mx-auto mb-4 object-cover rounded-full border-4 border-teal-500 shadow"

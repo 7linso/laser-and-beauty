@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://res.cloudinary.com/dnxrobolb/image/upload/v1746538408/favicon_jpl0nh.png", 
+        url: "https://res.cloudinary.com/dnxrobolb/image/upload/v1746538408/favicon_jpl0nh.png",
         width: 800,
         height: 600,
         alt: "Laser Beauty Studio",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Laser Beauty Studio",
     description: "Professional laser beauty treatments tailored for you. Book your appointment today.",
-    images: ["https://res.cloudinary.com/dnxrobolb/image/upload/v1746538408/favicon_jpl0nh.png"], 
+    images: ["https://res.cloudinary.com/dnxrobolb/image/upload/v1746538408/favicon_jpl0nh.png"],
   },
 };
 
@@ -39,12 +39,12 @@ export default function RootLayout({
         <link
           rel="icon"
           type="image/png"
-          sizes="32x32"
-          href="https://res.cloudinary.com/dnxrobolb/image/upload/w_32,h_32,c_scale/v1746538408/favicon_jpl0nh.png"
+          href="https://res.cloudinary.com/dnxrobolb/image/upload/v1746543200/favicon_jpl0nh_amjjlo.png"
         />
 
+
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=location_on" />
-        
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
