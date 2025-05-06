@@ -26,7 +26,7 @@ export default function Header() {
                                 className="w-12 h-12 rounded-full object-cover"
                             />
                         </div>
-                        <Link href="/" className="hover:text-teal-300 transition">Laser&Beauty by Olga</Link>
+                        <Link href="/" className="hover:text-teal-100 transition">Laser&Beauty by Olga</Link>
                     </div>
                     <div className="md:hidden">
                         <button
