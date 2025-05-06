@@ -3,8 +3,6 @@ import locations from '@/data/locations.json'
 import Image from "next/image"
 
 export default function LocationsPage() {
-    const bookingLink = 'https://laserbeauty-room-by-olga-rogozianska-101578.square.site/?fbclid=PAAaZES5tl2oNVz1WO5lwQ-Z8cOr4vxGlBirtF5a7a3iN9AI1DBkg_kqZmBVA'
-
     return (
         <>
             <div className="max-w-5xl mx-auto px-4 py-4">
