@@ -7,7 +7,9 @@ export default function HomePage() {
   return (
     <>
       <section className="relative h-[90vh] flex items-center justify-center text-white">
-        <img
+        <Image
+          width={1000}
+          height={1000}
           src="/images/laser-hero.jpg"
           alt="Laser and Beauty"
           className="absolute inset-0 object-cover w-full h-full z-0"
@@ -78,7 +80,7 @@ export default function HomePage() {
               },
             ].map((r, i) => (
               <Card key={i}>
-                <p className="text-gray-700 italic mb-4">"{r.review}"</p>
+                <p className="text-gray-700 italic mb-4">&quot;{r.review}&quot;</p>
                 <p className="text-teal-800 font-semibold">– {r.name}</p>
               </Card>
             ))}
