@@ -12,24 +12,25 @@ export default function ServicesPage() {
             <div className="team-grid gap-8">
                 {services.map((service, index) => (
                     <Card key={index}>
-                        <Image
-                            width={100}
-                            height={100}
-                            src={service.image}
-                            alt={service.name}
-                            className="w-full h-48 object-cover rounded-lg mb-4"
-                        />
-                        <h2 className="text-2xl font-semibold text-teal-800 mb-3">
-                            {service.name}
-                        </h2>
-                        <p className="text-gray-700 leading-relaxed">
-                            {service.description}
-                        </p>
-                        <div className="mt-auto pt-4 ">
-                            <Button />
+                        <div className="flex flex-col h-full">
+                            <Image
+                                width={100}
+                                height={100}
+                                src={service.image}
+                                alt={service.name}
+                                className="w-full h-48 object-cover rounded-lg mb-4"
+                            />
+                            <h2 className="text-2xl font-semibold text-teal-800 mb-3">
+                                {service.name}
+                            </h2>
+                            <p className="text-gray-700 leading-relaxed">
+                                {service.description}
+                            </p>
+                            <div className="mt-auto pt-4">
+                                <Button />
+                            </div>
                         </div>
-                    </Card>
-
+                    </Card>                  
                 ))}
             </div>
             <div className="pt-6">

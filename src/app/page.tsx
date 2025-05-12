@@ -1,5 +1,7 @@
 import Button from "@/components/button";
 import Card from "@/components/card";
+import services from '@/data/services.json'
+import Image from "next/image";
 
 export default function HomePage() {
   return (
@@ -24,23 +26,31 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto ">
           <h2 className="text-4xl font-semibold text-center text-teal-900 mb-12">Our Services</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            {["Laser Hair Removal", "Facials & Skin Care", "Anti-Aging Treatments"].map((service, i) => (
-              <Card key={i}>
-                <div className="h-56 bg-gray-200">
-                  <img
-                    src={`/images/service${i + 1}.jpg`}
-                    alt={service}
-                    className="object-cover w-full h-full"
-                  />
-                </div>
-                <div className="p-6 text-center">
-                  <h3 className="text-xl font-bold text-teal-700 mb-2">{service}</h3>
-                  <p className="text-gray-600 text-sm">
-                    Professional care tailored to your skin and beauty needs.
-                  </p>
-                </div>
-              </Card>
-            ))}
+            {services
+              .sort(() => Math.random() - 0.5)
+              .slice(0, 3)
+              .map((service, index) => (
+                <Card key={index}>
+                  <div className="flex flex-col h-full">
+                    <Image
+                      width={100}
+                      height={100}
+                      src={service.image}
+                      alt={service.name}
+                      className="w-full h-48 object-cover rounded-lg mb-4"
+                    />
+                    <h2 className="text-2xl font-semibold text-teal-800 mb-3">
+                      {service.name}
+                    </h2>
+                    <p className="text-gray-700 leading-relaxed">
+                      {service.description}
+                    </p>
+                    <div className="mt-auto pt-4">
+                      <Button />
+                    </div>
+                  </div>
+                </Card>
+              ))}
           </div>
         </div>
         <div className="flex justify-center mt-10">
@@ -67,15 +77,13 @@ export default function HomePage() {
                 review: "Clean studio, friendly staff, and noticeable improvements after just one session.",
               },
             ].map((r, i) => (
-              <div key={i} className="bg-teal-50 p-6 rounded-xl shadow">
+              <Card key={i}>
                 <p className="text-gray-700 italic mb-4">"{r.review}"</p>
                 <p className="text-teal-800 font-semibold">– {r.name}</p>
-              </div>
+              </Card>
             ))}
           </div>
         </div>
-
-
       </section>
 
       <section className="py-20 bg-teal-100 text-center">
