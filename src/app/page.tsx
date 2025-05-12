@@ -1,4 +1,5 @@
 import Button from "@/components/button";
+import Card from "@/components/card";
 
 export default function HomePage() {
   return (
@@ -24,10 +25,7 @@ export default function HomePage() {
           <h2 className="text-4xl font-semibold text-center text-teal-900 mb-12">Our Services</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {["Laser Hair Removal", "Facials & Skin Care", "Anti-Aging Treatments"].map((service, i) => (
-              <div
-                key={i}
-                className="shadow-md rounded-xl overflow-hidden transform transition hover:scale-105 bg-white"
-              >
+              <Card key={i}>
                 <div className="h-56 bg-gray-200">
                   <img
                     src={`/images/service${i + 1}.jpg`}
@@ -41,9 +39,12 @@ export default function HomePage() {
                     Professional care tailored to your skin and beauty needs.
                   </p>
                 </div>
-              </div>
+              </Card>
             ))}
           </div>
+        </div>
+        <div className="flex justify-center mt-10">
+          <Button buttonText="Learn More" bookingLink="/services" />
         </div>
       </section>
 
@@ -73,12 +74,14 @@ export default function HomePage() {
             ))}
           </div>
         </div>
+
+
       </section>
 
       <section className="py-20 bg-teal-100 text-center">
         <h2 className="text-4xl font-semibold text-teal-900 mb-6">Ready to Shine?</h2>
-        <p className="text-gray-700 mb-8">Book your consultation today and discover your glow.</p>
-        <Button buttonText="Get Started"/>
+        <p className="text-gray-700 mb-4 p-4">Book your consultation today and discover your glow.</p>
+        <Button buttonText="Get Started" />
       </section>
     </>
 

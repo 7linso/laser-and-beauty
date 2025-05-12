@@ -1,16 +1,17 @@
 import VideoPlayer from "@/components/video-player";
 import Button from "@/components/button";
+import Card from "@/components/card";
 
 export default function TrainingsPage() {
     const videoSource = 'https://res.cloudinary.com/dnxrobolb/video/upload/v1746549568/video_2025-05-06_11-38-31_dxaxng.mp4'
 
     return <>
         <div className="max-w-5xl mx-auto p-8">
-            <h1 className="text-4xl font-bold text-teal-900 mb-10 border-b-4 border-teal-700 inline-block pb-3">
+            <h1 className="text-4xl font-bold text-teal-900 mb-10">
                 Get Certified & Launch Your Career!
             </h1>
             <div className="flex flex-col md:flex-row custom-two-column gap-6">
-                <div className="flex-1 bg-white rounded-2xl shadow-lg border border-teal-300 p-6 transition hover:shadow-2xl">
+                <Card>
                     <h2 className="text-2xl font-semibold text-teal-800 mb-3">
                         Ready to begin a new chapter?
                     </h2>
@@ -55,16 +56,16 @@ export default function TrainingsPage() {
                         offer a complete professional waxing course that covers
                         everything you need to get started.
                     </p>
-                    <Button/>
-                </div>
-                <div className="flex-1 bg-white rounded-2xl shadow-lg border border-teal-300 p-6 transition hover:shadow-2xl">
-                    <h3 className="text-lg font-semibold text-teal-800 mb-4 text-center"
+                    <Button />
+                </Card>
+                <Card>
+                    <h3 className="text-2xl font-semibold text-teal-800 mb-3 text-center"
                     >Watch the Course Preview
                     </h3>
                     <div className="relative w-full aspect-[9/16] overflow-hidden rounded-lg">
                         <VideoPlayer link={videoSource} />
                     </div>
-                </div>
+                </Card>
             </div>
         </div>
     </>

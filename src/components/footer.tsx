@@ -29,9 +29,9 @@ export default function Footer() {
                         <ul className="space-y-2">
                             <li><Link href="mailto:info@laserandbeauty.com" className="hover:text-teal-100 transition text-sm">olga.rogozjanskaja@gmail.com</Link></li>
                             <li><Link href="tel:+1-431-336-3315" className="hover:text-teal-100 transition text-sm">+1 431-336-3315</Link></li>
+                            <li><Link href="mailto:sfarmysf@gmail.com" className="hover:text-teal-100 transition text-sm">Contact Dev</Link></li>
                         </ul>
                     </div>
-
                 </div>
             </div>
         </footer>
