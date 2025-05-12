@@ -29,7 +29,6 @@ export default function HomePage() {
         </div>
       </section>
 
-
       <section className="py-20 bg-teal-50 p-8">
         <AnimatedElement>
           <div className="max-w-6xl mx-auto ">
@@ -70,7 +69,7 @@ export default function HomePage() {
           </div>
         </AnimatedElement>
       </section>
-      
+
       <section className="py-20 p-8">
         <AnimatedElement>
           <div className="max-w-4xl mx-auto">
@@ -92,8 +91,12 @@ export default function HomePage() {
                 },
               ].map((r, i) => (
                 <Card key={i}>
-                  <p className="text-gray-700 italic mb-4">&quot;{r.review}&quot;</p>
-                  <p className="text-teal-800 font-semibold">– {r.name}</p>
+                  <p className="text-gray-700 italic mb-4">
+                    &quot;{r.review}&quot;
+                    </p>
+                  <p className="text-teal-800 font-semibold">
+                    – {r.name}
+                    </p>
                 </Card>
               ))}
             </div>
