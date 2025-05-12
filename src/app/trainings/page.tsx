@@ -2,11 +2,10 @@ import VideoPlayer from "@/components/video-player";
 import Button from "@/components/button";
 
 export default function TrainingsPage() {
-    const bookingLink = 'https://laserbeauty-room-by-olga-rogozianska-101578.square.site/?fbclid=PAAaZES5tl2oNVz1WO5lwQ-Z8cOr4vxGlBirtF5a7a3iN9AI1DBkg_kqZmBVA'
     const videoSource = 'https://res.cloudinary.com/dnxrobolb/video/upload/v1746549568/video_2025-05-06_11-38-31_dxaxng.mp4'
 
     return <>
-        <div className="max-w-5xl mx-auto px-4 py-4">
+        <div className="max-w-5xl mx-auto p-8">
             <h1 className="text-4xl font-bold text-teal-900 mb-10 border-b-4 border-teal-700 inline-block pb-3">
                 Get Certified & Launch Your Career!
             </h1>
@@ -56,7 +55,7 @@ export default function TrainingsPage() {
                         offer a complete professional waxing course that covers
                         everything you need to get started.
                     </p>
-                    <Button bookingLink={bookingLink} />
+                    <Button/>
                 </div>
                 <div className="flex-1 bg-white rounded-2xl shadow-lg border border-teal-300 p-6 transition hover:shadow-2xl">
                     <h3 className="text-lg font-semibold text-teal-800 mb-4 text-center"

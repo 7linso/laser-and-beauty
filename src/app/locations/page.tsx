@@ -6,7 +6,7 @@ import Button from "@/components/button"
 export default function LocationsPage() {
     return (
         <>
-            <div className="max-w-5xl mx-auto px-4 py-4">
+            <div className="max-w-5xl mx-auto p-8">
                 <h1 className="text-4xl font-bold text-teal-900 mb-10 border-b-4 border-teal-700 inline-block pb-3">
                     Check Out Our Locations
                 </h1>
@@ -14,9 +14,9 @@ export default function LocationsPage() {
                     <div key={index} className="flex mb-5 flex-col md:flex-row custom-two-column gap-6">
                         <div className="flex-1 bg-white rounded-2xl shadow-lg border border-teal-300 p-6 transition hover:shadow-2xl">
                             <div className="flex flex-col md:flex-row gap-4">
-                                <div className="md:w-2/3">
+                                <div className="md:w-2/3 flex flex-col">
                                     <Link href={location.linkGoogleMaps}>
-                                        <h2 className="text-2xl font-semibold text-teal-800">
+                                        <h2 className="text-2xl font-semibold text-teal-800 hover:text-teal-600">
                                             <span className="material-symbols-outlined">
                                                 location_on
                                             </span>
@@ -27,7 +27,9 @@ export default function LocationsPage() {
                                     <p className="text-gray-700 my-4 leading-relaxed">
                                         {location.description}
                                     </p>
-                                    <Button bookingLink={location.linkBooking} buttonText="Explore Services Here"/>
+                                    <div className="mt-auto">
+                                        <Button bookingLink={location.linkBooking} buttonText="Explore Services Here" />
+                                    </div>
                                 </div>
                                 <div className="md:w-1/3 flex justify-center items-end">
                                     <Image

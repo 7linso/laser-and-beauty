@@ -3,10 +3,8 @@ import Image from 'next/image';
 import Button from '@/components/button';
 
 export default function ServicesPage() {
-    const bookingLink = 'https://laserbeauty-room-by-olga-rogozianska-101578.square.site/?fbclid=PAAaZES5tl2oNVz1WO5lwQ-Z8cOr4vxGlBirtF5a7a3iN9AI1DBkg_kqZmBVA'
-
     return (<>
-        <div className="max-w-5xl mx-auto px-4 py-4">
+        <div className="max-w-5xl mx-auto p-8">
             <h1 className="text-4xl font-bold text-teal-900 mb-10 border-b-4 border-teal-700 inline-block pb-3">
                 Our Services
             </h1>
@@ -28,7 +26,7 @@ export default function ServicesPage() {
                             {service.description}
                         </p>
                         <div className="mt-auto pt-4 ">
-                            <Button bookingLink={bookingLink}/>
+                            <Button/>
                         </div>
                     </div>
 

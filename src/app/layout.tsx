@@ -4,10 +4,10 @@ import Footer from "@/components/footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Laser Beauty Studio",
+  title: "Laser&Beauty By Olga",
   description: "Professional laser beauty treatments tailored for you. Book your appointment today.",
   openGraph: {
-    title: "Laser Beauty Studio",
+    title: "Laser&Beauty By Olga",
     description: "Professional laser beauty treatments tailored for you. Book your appointment today.",
     url: "https://laserbeauty.taplink.ws/",
     type: "website",
@@ -16,13 +16,13 @@ export const metadata: Metadata = {
         url: "https://res.cloudinary.com/dnxrobolb/image/upload/v1746538408/favicon_jpl0nh.png",
         width: 800,
         height: 600,
-        alt: "Laser Beauty Studio",
+        alt: "Laser&Beauty By Olga",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Laser Beauty Studio",
+    title: "Laser&Beauty By Olga",
     description: "Professional laser beauty treatments tailored for you. Book your appointment today.",
     images: ["https://res.cloudinary.com/dnxrobolb/image/upload/v1746538408/favicon_jpl0nh.png"],
   },
@@ -54,7 +54,7 @@ export default function RootLayout({
       </head>
       <body className="font-montserrat min-h-screen flex flex-col">
         <Header />
-        <main className="p-4 flex-grow bg-dots">
+        <main className="flex-grow bg-grad">
           {children}
         </main>
         <Footer />

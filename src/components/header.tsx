@@ -20,17 +20,20 @@ export default function Header() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     <div className="text-xl font-semibold text-white flex items-center gap-2">
-                        <div className="w-12 h-12 flex items-center justify-center overflow-hidden">
-                            <Image
-                                src="https://res.cloudinary.com/dnxrobolb/image/upload/v1746538408/favicon_jpl0nh.png"
-                                alt="icon"
-                                width={48}
-                                height={48}
-                                className="w-12 h-12 rounded-full object-cover"
-                            />
-
-                        </div>
-                        <Link href="/" className="hover:text-teal-100 transition">Laser&Beauty by Olga</Link>
+                        <Link href="/" className="flex items-center">
+                            <div className="w-12 h-12 flex items-center justify-center overflow-hidden">
+                                <Image
+                                    src="https://res.cloudinary.com/dnxrobolb/image/upload/v1746538408/favicon_jpl0nh.png"
+                                    alt="icon"
+                                    width={48}
+                                    height={48}
+                                    className="w-12 h-12 rounded-full object-cover"
+                                />
+                            </div>
+                            <span className="hover:text-teal-100 transition ml-2">
+                                Laser&Beauty by Olga
+                            </span>
+                        </Link>
                     </div>
                     <div className="md:hidden">
                         <button

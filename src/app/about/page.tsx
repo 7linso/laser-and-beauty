@@ -3,11 +3,9 @@ import Image from "next/image";
 import Button from "@/components/button";
 
 export default function AboutPage() {
-    const bookingLink = 'https://laserbeauty-room-by-olga-rogozianska-101578.square.site/?fbclid=PAAaZES5tl2oNVz1WO5lwQ-Z8cOr4vxGlBirtF5a7a3iN9AI1DBkg_kqZmBVA'
-
     return (
         <>
-            <div className="max-w-5xl mx-auto px-4 py-4">
+            <div className="max-w-5xl mx-auto p-8">
                 <h1 className="text-4xl font-bold text-teal-900 mb-10 border-b-4 border-teal-700 inline-block pb-3">
                     About Laser&Beauty by Olga
                 </h1>
@@ -49,7 +47,7 @@ export default function AboutPage() {
                     </div>
                 </div>
             </div>
-            <div className="max-w-5xl mx-auto px-4 py-4">
+            <div className="max-w-5xl mx-auto px-8">
                 <div className="flex-1 bg-white rounded-2xl shadow-lg border border-teal-300 p-6 transition hover:shadow-2xl">
                     <div className="flex flex-col md:flex-row gap-4">
                         <div className="md:w-2/3">
@@ -75,7 +73,7 @@ export default function AboutPage() {
                                 kick-start your esthetics career, I&apos;m here
                                 to guide and support you every step of the way.
                             </p>
-                            <Button bookingLink={bookingLink}/>
+                            <Button/>
                         </div>
                         <div className="md:w-1/3 flex justify-center items-end">
                             <Image
@@ -89,7 +87,7 @@ export default function AboutPage() {
                     </div>
                 </div>
             </div >
-            <div className="max-w-5xl mx-auto px-4 py-4">
+            <div className="max-w-5xl mx-auto p-8">
                 <h1 className="text-4xl font-bold text-teal-900 mb-10 border-b-4 border-teal-700 inline-block pb-3">
                     Meet Our Team
                 </h1>
