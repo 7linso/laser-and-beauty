@@ -10,31 +10,78 @@ import ExpandableText from "@/components/expandable-text";
 export default function HomePage() {
   const backgroundImage = 'https://res.cloudinary.com/dnxrobolb/image/upload/v1747143698/photo_2025-05-13_08-34-51_gzp2wt.jpg'
   // const backgroundImage = 'https://res.cloudinary.com/dnxrobolb/image/upload/v1747143698/photo_2025-05-13_08-34-43_shdzsx.jpg'
-  
+
   return (
     <>
-      <section className="relative h-[90vh] flex items-center justify-center text-white overflow-hidden">
-        <Image
-          fill
-          priority
-          src={backgroundImage}
-          alt="Laser and Beauty"
-          className="object-cover z-0"
-        />
-        <div className="absolute inset-0 bg-black/50 z-10"></div>
+      <section className="relative h-[90vh] flex flex-col lg:flex-row text-white overflow-hidden">
+        <div className="relative w-full lg:w-1/2 h-full">
+          <Image
+            fill
+            priority
+            src={backgroundImage}
+            alt="Laser and Beauty"
+            className="object-cover z-0"
+          />
+          <div className="absolute inset-0 bg-black/50 z-10" />
 
-        <div className="z-20 text-center px-6">
+          <div className="absolute inset-0 flex items-center justify-center px-6 z-20 lg:hidden">
+            <AnimatedElement>
+              <div className="text-center">
+                <h1 className="text-5xl md:text-6xl font-bold mb-4">
+                  Laser&Beauty by Olga
+                </h1>
+                <p className="text-xl md:text-2xl mb-6">
+                  Laser Treatments · Skin Rejuvenation · Confidence
+                </p>
+                <Button buttonText="Book an Appointment" />
+              </div>
+            </AnimatedElement>
+          </div>
+        </div>
+
+        <div className="hidden lg:flex w-1/2 items-center justify-center px-6 py-12 z-20">
           <AnimatedElement>
-            <h1 className="text-5xl md:text-6xl font-bold mb-4">
-              Laser&Beauty by Olga
-            </h1>
-            <p className="text-xl md:text-2xl mb-6">
-              Laser Treatments · Skin Rejuvenation · Confidence
-            </p>
-            <Button buttonText="Book an Appointment" />
+            <div className="text-left">
+              <h1 className="text-5xl md:text-6xl font-bold mb-4">
+                Laser&Beauty by Olga
+              </h1>
+              <p className="text-xl md:text-2xl mb-6">
+                Laser Treatments · Skin Rejuvenation · Confidence
+              </p>
+              <Button buttonText="Book an Appointment" />
+            </div>
           </AnimatedElement>
         </div>
       </section>
+
+      <section className="w-full bg-teal-900 py-20 px-6 sm:px-10">
+        <div className="mx-auto w-full max-w-full lg:max-w-[60%] text-center">
+          <AnimatedElement>
+            <h2 className="text-3xl lg:text-4xl font-semibold text-teal-50 mb-8 md:mb-12">
+              Our Mission
+            </h2>
+            <p className="text-gray-100 mb-4 leading-relaxed text-sm md:text-base lg:text-lg">
+              Welcome! I&apos;m Olga, a certified esthetician with nearly
+              20 years of experience in skincare and beauty. From my roots
+              in Ukraine to my new home in Canada, my mission has always
+              been the same: helping people look and feel their best.
+              Today, I lead a team of dedicated professionals across
+              several locations in Winnipeg, offering expert care and
+              personalized treatments in a welcoming environment.
+            </p>
+            <p className="text-gray-100 mb-4 leading-relaxed text-sm md:text-base lg:text-lg">
+              At Laser&Beauty, I offer advanced, personalized treatments in
+              a warm, professional setting—where confidence and care go
+              hand in hand.
+            </p>
+            <p className="text-gray-100 mb-4 leading-relaxed text-sm md:text-base lg:text-lg">
+              Whether you&apos;re here for a glow-up or ready to start your
+              career in beauty, I&apos;m here to guide you every step of the way.
+            </p>
+          </AnimatedElement>
+        </div>
+      </section>
+
 
       <section className="py-20 bg-teal-50 p-8">
         <AnimatedElement>
@@ -69,7 +116,6 @@ export default function HomePage() {
                   </Card>
                 ))}
             </div>
-
           </div>
           <div className="flex justify-center mt-10">
             <Button buttonText="Learn More" bookingLink="/services" />
@@ -86,9 +132,9 @@ export default function HomePage() {
               {reviews.map((review, i) => (
                 <Card key={i}>
                   <ExpandableText content={review.review} author={review.author} />
-                  <Link href={review.link} className="text-sm text-gray-400">
-                      see on Google Maps
-                    </Link>
+                  <Link href={review.link} className="text-sm text-gray-400 hover:underline mt-2">
+                    see on Google Maps
+                  </Link>
                 </Card>
               ))}
             </div>
@@ -107,7 +153,6 @@ export default function HomePage() {
           <Button buttonText="Get Started" />
         </AnimatedElement>
       </section>
-
     </>
   );
 }

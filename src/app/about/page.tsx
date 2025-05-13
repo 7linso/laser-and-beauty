@@ -101,7 +101,7 @@ export default function AboutPage() {
                                     height={100}
                                     src={t.image}
                                     alt={t.name}
-                                    className="w-28 h-28 mx-auto mb-4 object-cover rounded-full border-4 border-teal-500 shadow"
+                                    className="mx-auto mb-4 shadow"
                                 />
                                 <h2 className="text-center text-xl font-semibold text-teal-800 mb-2">{t.name}</h2>
                                 <p className="text-center text-gray-400 text-sm leading-relaxed">{t.location}</p>
