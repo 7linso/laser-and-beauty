@@ -3,19 +3,26 @@ import Card from "@/components/card";
 import services from '@/data/services.json'
 import Image from "next/image";
 import AnimatedElement from "@/components/animated-element";
+import reviews from '@/data/reviews.json'
+import Link from "next/link";
+import ExpandableText from "@/components/expandable-text";
 
 export default function HomePage() {
+  const backgroundImage = 'https://res.cloudinary.com/dnxrobolb/image/upload/v1747143698/photo_2025-05-13_08-34-51_gzp2wt.jpg'
+  // const backgroundImage = 'https://res.cloudinary.com/dnxrobolb/image/upload/v1747143698/photo_2025-05-13_08-34-43_shdzsx.jpg'
+  
   return (
     <>
-      <section className="relative h-[90vh] flex items-center justify-center text-white">
+      <section className="relative h-[90vh] flex items-center justify-center text-white overflow-hidden">
         <Image
-          width={1000}
-          height={1000}
-          src="/images/laser-hero.jpg"
+          fill
+          priority
+          src={backgroundImage}
           alt="Laser and Beauty"
-          className="absolute inset-0 object-cover w-full h-full z-0"
+          className="object-cover z-0"
         />
-        <div className="absolute inset-0 bg-teal-900 bg-opacity-60 z-10"></div>
+        <div className="absolute inset-0 bg-black/50 z-10"></div>
+
         <div className="z-20 text-center px-6">
           <AnimatedElement>
             <h1 className="text-5xl md:text-6xl font-bold mb-4">
@@ -76,27 +83,12 @@ export default function HomePage() {
             <h2 className="text-4xl font-semibold text-center text-teal-900 mb-12">
               What Clients Say</h2>
             <div className="grid md:grid-cols-2 gap-8">
-              {[
-                {
-                  name: "Emma R.",
-                  review: "Absolutely amazing results! My skin has never felt better.",
-                },
-                {
-                  name: "Sophia L.",
-                  review: "Professional service with a personal touch. Highly recommend!",
-                },
-                {
-                  name: "Ava M.",
-                  review: "Clean studio, friendly staff, and noticeable improvements after just one session.",
-                },
-              ].map((r, i) => (
+              {reviews.map((review, i) => (
                 <Card key={i}>
-                  <p className="text-gray-700 italic mb-4">
-                    &quot;{r.review}&quot;
-                    </p>
+                  <ExpandableText content={review.review} />
                   <p className="text-teal-800 font-semibold">
-                    – {r.name}
-                    </p>
+                    – {review.author}
+                  </p>
                 </Card>
               ))}
             </div>
