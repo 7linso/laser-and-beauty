@@ -131,7 +131,10 @@ export default function HomePage() {
             <div className="grid md:grid-cols-2 gap-8">
               {reviews.map((review, i) => (
                 <Card key={i}>
-                  <ExpandableText content={review.review} author={review.author} />
+                  <h1 className="text-teal-800 font-semibold">
+                    {review.author}
+                  </h1>
+                  <ExpandableText content={review.review}/>
                   <Link href={review.link} className="text-sm text-gray-400 hover:underline mt-2">
                     see on Google Maps
                   </Link>

@@ -2,6 +2,7 @@ import team from '@/data/team.json'
 import Image from "next/image";
 import Button from "@/components/button";
 import Card from '@/components/card';
+import ExpandableText from '@/components/expandable-text';
 
 export default function AboutPage() {
     return (
@@ -51,41 +52,41 @@ export default function AboutPage() {
             <div className="max-w-5xl mx-auto px-8">
                 <Card>
                     <div className="flex flex-col md:flex-row gap-4">
-                    <div className="md:w-2/3">
-                        <h2 className="text-2xl font-semibold text-teal-800 mb-3">
-                            What Drives Me
-                        </h2>
-                        <p className="text-gray-700 mb-4 leading-relaxed">
-                            I love my job and truly enjoy meeting new people.
-                            Providing high-quality, personalized services
-                            is not just my work—it&apos;s my calling. Every
-                            client I meet is treated with care,
-                            professionalism, and the commitment to help
-                            them look and feel their best.
-                        </p>
-                        <h2 className="text-2xl font-semibold text-teal-800 mb-3">
-                            Building a Beauty Community
-                        </h2>
-                        <p className="text-gray-700 mb-4 leading-relaxed">
-                            Today, I offer advanced treatments and professional
-                            training courses for those who want to build
-                            their own path in the beauty industry. Whether
-                            you&apos;re here for a relaxing treatment or to
-                            kick-start your esthetics career, I&apos;m here
-                            to guide and support you every step of the way.
-                        </p>
-                        <Button />
+                        <div className="md:w-2/3">
+                            <h2 className="text-2xl font-semibold text-teal-800 mb-3">
+                                What Drives Me
+                            </h2>
+                            <p className="text-gray-700 mb-4 leading-relaxed">
+                                I love my job and truly enjoy meeting new people.
+                                Providing high-quality, personalized services
+                                is not just my work—it&apos;s my calling. Every
+                                client I meet is treated with care,
+                                professionalism, and the commitment to help
+                                them look and feel their best.
+                            </p>
+                            <h2 className="text-2xl font-semibold text-teal-800 mb-3">
+                                Building a Beauty Community
+                            </h2>
+                            <p className="text-gray-700 mb-4 leading-relaxed">
+                                Today, I offer advanced treatments and professional
+                                training courses for those who want to build
+                                their own path in the beauty industry. Whether
+                                you&apos;re here for a relaxing treatment or to
+                                kick-start your esthetics career, I&apos;m here
+                                to guide and support you every step of the way.
+                            </p>
+                            <Button />
+                        </div>
+                        <div className="md:w-1/3 flex justify-center items-end">
+                            <Image
+                                width={100}
+                                height={100}
+                                src="/images/olga.jpg"
+                                alt="Olga portrait"
+                                className="rounded-lg shadow-lg w-full max-w-xs object-cover"
+                            />
+                        </div>
                     </div>
-                    <div className="md:w-1/3 flex justify-center items-end">
-                        <Image
-                            width={100}
-                            height={100}
-                            src="/images/olga.jpg"
-                            alt="Olga portrait"
-                            className="rounded-lg shadow-lg w-full max-w-xs object-cover"
-                        />
-                    </div>
-                </div>
                 </Card>
             </div >
             <div className="max-w-5xl mx-auto p-8">
@@ -96,16 +97,18 @@ export default function AboutPage() {
                     {team.map((t, index) => (
                         <Card key={index}>
                             <div className="flex flex-col items-center">
-                                <Image
-                                    width={100}
-                                    height={100}
-                                    src={t.image}
-                                    alt={t.name}
-                                    className="mx-auto mb-4 shadow"
-                                />
+                                <div className="w-40 h-40 rounded-full overflow-hidden shadow-lg mb-4 relative">
+
+                                    <Image
+                                        fill
+                                        src={t.image}
+                                        alt={t.name}
+                                        className="rounded-full mb-4 shadow-md object-cover"
+                                    />
+                                </div>
                                 <h2 className="text-center text-xl font-semibold text-teal-800 mb-2">{t.name}</h2>
                                 <p className="text-center text-gray-400 text-sm leading-relaxed">{t.location}</p>
-                                <p className="text-gray-600 text-sm leading-relaxed">{t.description}</p>
+                                <ExpandableText content={t.description} />
                             </div>
                         </Card>
                     ))}
