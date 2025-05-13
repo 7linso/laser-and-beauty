@@ -85,10 +85,10 @@ export default function HomePage() {
             <div className="grid md:grid-cols-2 gap-8">
               {reviews.map((review, i) => (
                 <Card key={i}>
-                  <ExpandableText content={review.review} />
-                  <p className="text-teal-800 font-semibold">
-                    – {review.author}
-                  </p>
+                  <ExpandableText content={review.review} author={review.author} />
+                  <Link href={review.link} className="text-sm text-gray-400">
+                      see on Google Maps
+                    </Link>
                 </Card>
               ))}
             </div>
