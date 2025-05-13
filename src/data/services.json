@@ -17,7 +17,7 @@
     {
         "name": "Waxing",
         "description": "Traditional waxing services for various body areas.",
-        "image": "/images/services/waxing.jpg"
+        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1747153055/photo_2025-05-13_11-17-34_nlzdxv.jpg"
     },
     {
         "name": "Manicure",

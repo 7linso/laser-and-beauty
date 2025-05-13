@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Laser&Beauty By Olga",
   description: "Professional laser beauty treatments tailored for you. Book your appointment today.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "https://res.cloudinary.com/dnxrobolb/image/upload/v1746543200/favicon_jpl0nh_amjjlo.png",
   },
   openGraph: {
     title: "Laser&Beauty By Olga",
@@ -31,6 +31,7 @@ export const metadata: Metadata = {
   },
 };
 
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -39,11 +40,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link
+        {/* <link
           rel="icon"
           type="image/png"
           href="https://res.cloudinary.com/dnxrobolb/image/upload/v1746543200/favicon_jpl0nh_amjjlo.png"
-        />
+        /> */}
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=location_on" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
