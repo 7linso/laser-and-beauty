@@ -13,13 +13,14 @@ export default function ServicesPage() {
                 {services.map((service, index) => (
                     <Card key={index}>
                         <div className="flex flex-col h-full">
-                            <Image
-                                width={100}
-                                height={100}
-                                src={service.image}
-                                alt={service.name}
-                                className="w-full h-48 object-cover rounded-lg mb-4"
-                            />
+                            <div className="w-full h-48 relative rounded-lg overflow-hidden mb-4">
+                                <Image
+                                    fill
+                                    src={service.image}
+                                    alt={service.name}
+                                    className="object-cover"
+                                />
+                            </div>
                             <h2 className="text-2xl font-semibold text-teal-800 mb-3">
                                 {service.name}
                             </h2>
@@ -30,7 +31,7 @@ export default function ServicesPage() {
                                 <Button />
                             </div>
                         </div>
-                    </Card>                  
+                    </Card>
                 ))}
             </div>
             <div className="pt-6">

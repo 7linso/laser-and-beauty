@@ -98,12 +98,10 @@ export default function AboutPage() {
                         <Card key={index}>
                             <div className="flex flex-col items-center">
                                 <div className="w-40 h-40 rounded-full overflow-hidden shadow-lg mb-4 relative">
-
                                     <Image
                                         fill
                                         src={t.image}
                                         alt={t.name}
-                                        className="rounded-full mb-4 shadow-md object-cover"
                                     />
                                 </div>
                                 <h2 className="text-center text-xl font-semibold text-teal-800 mb-2">{t.name}</h2>

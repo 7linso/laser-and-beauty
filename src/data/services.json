@@ -17,16 +17,16 @@
     {
         "name": "Waxing",
         "description": "Traditional waxing services for various body areas.",
-        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1747153055/photo_2025-05-13_11-17-34_nlzdxv.jpg"
+        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1747230799/photo_2025-05-14_08-53-21_t6vkbp.jpg"
     },
     {
         "name": "Manicure",
         "description": "Professional nail care and styling for hands.",
-        "image": "/images/services/manicure.jpg"
+        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1747229744/IMG_6496_fe0qzu.jpg"
     },
     {
         "name": "Pedicure",
         "description": "Relaxing and detailed foot care including nail treatment.",
-        "image": "/images/services/pedicure.jpg"
+        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1747231169/IMG_3955_mwsysa.jpg"
     }
 ]

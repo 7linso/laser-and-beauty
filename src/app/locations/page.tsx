@@ -33,13 +33,14 @@ export default function LocationsPage() {
                                     </div>
                                 </div>
                                 <div className="md:w-1/3 flex justify-center items-end">
-                                    <Image
-                                        width={100}
-                                        height={100}
-                                        src={location.image}
-                                        alt={location.address}
-                                        className="rounded-lg shadow-lg w-full max-w-xs object-cover"
-                                    />
+                                    <div className="relative w-full max-w-xs aspect-square rounded-lg overflow-hidden shadow-lg">
+                                        <Image
+                                            fill
+                                            src={location.image}
+                                            alt={location.address}
+                                            className="object-cover"
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </Card>
