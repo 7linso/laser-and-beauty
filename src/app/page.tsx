@@ -56,10 +56,10 @@ export default function HomePage() {
 
       <section className="w-full bg-teal-900 py-20 px-6 sm:px-10">
         <div className="mx-auto w-full max-w-full lg:max-w-[60%] text-center">
-          <AnimatedElement>
             <h2 className="text-3xl lg:text-4xl font-semibold text-teal-50 mb-8 md:mb-12">
               Our Mission
             </h2>
+            <AnimatedElement>
             <p className="text-gray-100 mb-4 leading-relaxed text-sm md:text-base lg:text-lg">
               Welcome! I&apos;m Olga, a certified esthetician with nearly
               20 years of experience in skincare and beauty. From my roots
@@ -84,17 +84,18 @@ export default function HomePage() {
 
 
       <section className="py-20 bg-teal-50 p-8">
-        <AnimatedElement>
-          <div className="max-w-6xl mx-auto ">
-            <h2 className="text-4xl font-semibold text-center text-teal-900 mb-12">
-              Our Services
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              {services
-                .sort(() => Math.random() - 0.5)
-                .slice(0, 3)
-                .map((service, index) => (
-                  <Card key={index}>
+
+        <div className="max-w-6xl mx-auto ">
+          <h2 className="text-4xl font-semibold text-center text-teal-900 mb-12">
+            Our Services
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {services
+              .sort(() => Math.random() - 0.5)
+              .slice(0, 3)
+              .map((service, index) => (
+                <AnimatedElement key={index}>
+                  <Card >
                     <div className="flex flex-col h-full">
                       <Image
                         width={100}
@@ -114,36 +115,39 @@ export default function HomePage() {
                       </div>
                     </div>
                   </Card>
-                ))}
-            </div>
+                </AnimatedElement>
+              ))}
           </div>
-          <div className="flex justify-center mt-10">
-            <Button buttonText="Learn More" bookingLink="/services" />
-          </div>
-        </AnimatedElement>
+        </div>
+        <div className="flex justify-center mt-10">
+          <Button buttonText="Learn More" bookingLink="/services" />
+        </div>
+
       </section>
 
       <section className="py-20 p-8">
-        <AnimatedElement>
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-semibold text-center text-teal-900 mb-12">
-              What Clients Say</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              {reviews.map((review, i) => (
-                <Card key={i}>
+
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl font-semibold text-center text-teal-900 mb-12">
+            What Clients Say</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            {reviews.map((review, i) => (
+              <AnimatedElement key={i}>
+                <Card >
                   <h1 className="text-teal-800 font-semibold">
                     {review.author}
                   </h1>
-                  <ExpandableText content={review.review}/>
+                  <ExpandableText content={review.review} />
                   <Link href={review.link} className="text-sm text-gray-400 hover:underline mt-2">
                     see on Google Maps
                   </Link>
                 </Card>
-              ))}
-            </div>
+              </AnimatedElement >
+            ))}
           </div>
-        </AnimatedElement >
-      </section>
+        </div>
+
+      </section >
 
       <section className="py-20 bg-teal-100 text-center">
         <AnimatedElement>

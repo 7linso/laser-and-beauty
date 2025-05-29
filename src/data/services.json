@@ -2,17 +2,17 @@
     {
         "name": "Laser Hair Removal",
         "description": "Safe and effective hair removal using cutting-edge laser technology.",
-        "image": "/images/services/laser-hair-removal.jpg"
+        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1748539566/photo_2025-05-29_12-25-59_ulyjtf.jpg"
     },
     {
         "name": "IPL Skin Rejuvenation",
         "description": "Innovative technic to treat sun damage, redness, and even skin tone.",
-        "image": "/images/services/ipl-skin-rejuvenation.jpg"
+        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1748539900/photo_2025-05-29_12-30-49_qxpmmi.jpg"
     },
     {
         "name": "Sugaring",
         "description": "A natural hair removal method using sugar paste for smooth skin.",
-        "image": "/images/services/sugaring.jpg"
+        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1748539900/photo_2025-05-29_12-30-49_qxpmmi.jpg"
     },
     {
         "name": "Waxing",

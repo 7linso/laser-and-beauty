@@ -2,6 +2,7 @@ import services from '@/data/services.json'
 import Image from 'next/image';
 import Button from '@/components/button';
 import Card from '@/components/card';
+import AnimatedElement from '@/components/animated-element';
 
 export default function ServicesPage() {
     return (<>
@@ -9,35 +10,38 @@ export default function ServicesPage() {
             <h1 className="text-4xl font-bold text-teal-900 mb-10">
                 Our Services
             </h1>
-            <div className="team-grid gap-8">
+            <div className="team-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {services.map((service, index) => (
-                    <Card key={index}>
-                        <div className="flex flex-col h-full">
-                            <div className="w-full h-48 relative rounded-lg overflow-hidden mb-4">
-                                <Image
-                                    fill
-                                    src={service.image}
-                                    alt={service.name}
-                                    className="object-cover"
-                                />
+                    <AnimatedElement key={index}>
+                        <Card className="h-full">
+                            <div className="flex flex-col h-full">
+                                <div className="w-full h-48 relative rounded-lg overflow-hidden mb-4">
+                                    <Image
+                                        fill
+                                        src={service.image}
+                                        alt={service.name}
+                                        className="object-cover"
+                                    />
+                                </div>
+                                <h2 className="text-2xl font-semibold text-teal-800 mb-3">
+                                    {service.name}
+                                </h2>
+                                <p className="text-gray-700 leading-relaxed">
+                                    {service.description}
+                                </p>
+                                <div className="mt-auto pt-4">
+                                    <Button />
+                                </div>
                             </div>
-                            <h2 className="text-2xl font-semibold text-teal-800 mb-3">
-                                {service.name}
-                            </h2>
-                            <p className="text-gray-700 leading-relaxed">
-                                {service.description}
-                            </p>
-                            <div className="mt-auto pt-4">
-                                <Button />
-                            </div>
-                        </div>
-                    </Card>
+                        </Card>
+                    </AnimatedElement>
                 ))}
             </div>
             <div className="pt-6">
                 <h1 className="text-4xl font-bold text-teal-900 mb-10 ">
                     Important Note!
                 </h1>
+                <AnimatedElement>
                 <Card>
                     <h2 className="text-2xl font-semibold text-teal-800 mb-3">
                         Cancellation Policy
@@ -60,6 +64,7 @@ export default function ServicesPage() {
                         Please contact the salon if you have any questions.
                     </p>
                 </Card>
+                </AnimatedElement>
             </div>
         </div>
 
