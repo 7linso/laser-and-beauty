@@ -1,6 +1,5 @@
 import services from '@/data/services.json'
 import Image from 'next/image';
-import Button from '@/components/button';
 import Card from '@/components/card';
 import AnimatedElement from '@/components/animated-element';
 
@@ -29,9 +28,6 @@ export default function ServicesPage() {
                                 <p className="text-gray-700 leading-relaxed">
                                     {service.description}
                                 </p>
-                                {/* <div className="mt-auto pt-4">
-                                    <Button />
-                                </div> */}
                             </div>
                         </Card>
                     </AnimatedElement>
