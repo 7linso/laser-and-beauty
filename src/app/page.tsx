@@ -131,10 +131,10 @@ export default function HomePage() {
             First visit Laser session 25% OFF
           </p>
           <p className="text-teal-50 p-2">
-            Get your 25% discount if you buy Laser session for 3 any areas of your body
+            Get your 25% Discount if you buy Laser session for any 3 areas of your body
           </p>
           <p className="text-teal-50 mb-4 p-2">
-            Friendd referral Laser session 25%n OFF
+            Friend Referral Laser session 25% OFF
           </p>
           <Button buttonText="Book" />
         </AnimatedElement>
