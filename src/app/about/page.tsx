@@ -14,7 +14,7 @@ export default function AboutPage() {
                 </h1>
                 <AnimatedElement>
                     <Card>
-                        <div className="flex flex-col md:flex-row gap-4">
+                        <section className="flex flex-col md:flex-row gap-4">
                             <div className="md:w-2/3">
                                 <h2 className="text-2xl font-semibold text-teal-800 mb-3">
                                     A Journey of Passion and Purpose
@@ -48,14 +48,14 @@ export default function AboutPage() {
                                     className="rounded-lg shadow-lg w-full max-w-xs object-cover"
                                 />
                             </div>
-                        </div>
+                        </section>
                     </Card>
                 </AnimatedElement>
             </div>
             <div className="max-w-5xl mx-auto px-8">
                 <AnimatedElement>
                     <Card>
-                        <div className="flex flex-col md:flex-row gap-4">
+                        <section className="flex flex-col md:flex-row gap-4">
                             <div className="md:w-2/3">
                                 <h2 className="text-2xl font-semibold text-teal-800 mb-3">
                                     What Drives Me
@@ -90,11 +90,11 @@ export default function AboutPage() {
                                     className="rounded-lg shadow-lg w-full max-w-xs object-cover"
                                 />
                             </div>
-                        </div>
+                        </section>
                     </Card>
                 </AnimatedElement>
             </div >
-            <div className="max-w-5xl mx-auto p-8">
+            <section className="max-w-5xl mx-auto p-8">
                 <h1 className="text-4xl font-bold text-teal-900 mb-10">
                     Meet Our Team
                 </h1>
@@ -118,7 +118,7 @@ export default function AboutPage() {
                         </AnimatedElement>
                     ))}
                 </div>
-            </div>
+            </section>
         </>
     );
 

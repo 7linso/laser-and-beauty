@@ -56,11 +56,11 @@ export default function HomePage() {
 
       <section className="w-full bg-teal-900 py-20 px-6 sm:px-10">
         <div className="mx-auto w-full max-w-full lg:max-w-[60%] text-center">
-            <h2 className="text-3xl lg:text-4xl font-semibold text-teal-50 mb-8 md:mb-12">
-              Our Mission
-            </h2>
-            <AnimatedElement>
-            <p className="text-gray-100 mb-4 leading-relaxed text-sm md:text-base lg:text-lg">
+          <h2 className="text-3xl lg:text-4xl font-semibold text-teal-50 mb-8 md:mb-12">
+            Our Mission
+          </h2>
+          <AnimatedElement>
+            <p className="text-teal-50 mb-4 leading-relaxed text-sm md:text-base lg:text-lg">
               Welcome! I&apos;m Olga, a certified esthetician with nearly
               20 years of experience in skincare and beauty. From my roots
               in Ukraine to my new home in Canada, my mission has always
@@ -69,12 +69,12 @@ export default function HomePage() {
               several locations in Winnipeg, offering expert care and
               personalized treatments in a welcoming environment.
             </p>
-            <p className="text-gray-100 mb-4 leading-relaxed text-sm md:text-base lg:text-lg">
+            <p className="text-teal-50 mb-4 leading-relaxed text-sm md:text-base lg:text-lg">
               At Laser&Beauty, I offer advanced, personalized treatments in
               a warm, professional setting—where confidence and care go
               hand in hand.
             </p>
-            <p className="text-gray-100 mb-4 leading-relaxed text-sm md:text-base lg:text-lg">
+            <p className="text-teal-50 mb-4 leading-relaxed text-sm md:text-base lg:text-lg">
               Whether you&apos;re here for a glow-up or ready to start your
               career in beauty, I&apos;m here to guide you every step of the way.
             </p>
@@ -82,9 +82,7 @@ export default function HomePage() {
         </div>
       </section>
 
-
-      <section className="py-20 bg-teal-50 p-8">
-
+      <section className="py-20 p-8">
         <div className="max-w-6xl mx-auto ">
           <h2 className="text-4xl font-semibold text-center text-teal-900 mb-12">
             Our Services
@@ -95,7 +93,7 @@ export default function HomePage() {
               .slice(0, 3)
               .map((service, index) => (
                 <AnimatedElement key={index}>
-                  <Card >
+                  <Card className="h-full">
                     <div className="flex flex-col h-full">
                       <Image
                         width={100}
@@ -110,9 +108,9 @@ export default function HomePage() {
                       <p className="text-gray-700 leading-relaxed">
                         {service.description}
                       </p>
-                      <div className="mt-auto pt-4">
+                      {/* <div className="mt-auto pt-4">
                         <Button />
-                      </div>
+                      </div> */}
                     </div>
                   </Card>
                 </AnimatedElement>
@@ -122,11 +120,27 @@ export default function HomePage() {
         <div className="flex justify-center mt-10">
           <Button buttonText="Learn More" bookingLink="/services" />
         </div>
+      </section>
 
+      <section className="py-20 bg-teal-900 text-center">
+        <AnimatedElement>
+          <h2 className="text-4xl font-semibold text-teal-50 mb-6">
+            Our Special Offers
+          </h2>
+          <p className="text-teal-50 p-2">
+            First visit Laser session 25% OFF
+          </p>
+          <p className="text-teal-50 p-2">
+            Get your 25% discount if you buy Laser session for 3 any areas of your body
+          </p>
+          <p className="text-teal-50 mb-4 p-2">
+            Friendd referral Laser session 25%n OFF
+          </p>
+          <Button buttonText="Book" />
+        </AnimatedElement>
       </section>
 
       <section className="py-20 p-8">
-
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-semibold text-center text-teal-900 mb-12">
             What Clients Say</h2>
@@ -139,14 +153,13 @@ export default function HomePage() {
                   </h1>
                   <ExpandableText content={review.review} />
                   <Link href={review.link} className="text-sm text-gray-400 hover:underline mt-2">
-                    see on Google Maps
+                    check out Google Maps
                   </Link>
                 </Card>
               </AnimatedElement >
             ))}
           </div>
         </div>
-
       </section >
 
       <section className="py-20 bg-teal-100 text-center">

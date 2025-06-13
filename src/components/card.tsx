@@ -7,7 +7,7 @@ type CardProps = {
 
 export default function Card({ children, className = '' }: CardProps) {
     return (
-        <div className={`flex-1 bg-white rounded-2xl shadow-lg p-6 transition hover:shadow-2xl ${className}`}>
+        <div className={`flex-1 bg-white rounded-2xl shadow-lg p-4 transition hover:shadow-2xl ${className}`}>
             {children}
         </div>
     );

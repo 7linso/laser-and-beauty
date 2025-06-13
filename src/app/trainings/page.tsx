@@ -11,7 +11,7 @@ export default function TrainingsPage() {
             <h1 className="text-4xl font-bold text-teal-900 mb-10">
                 Get Certified & Launch Your Career!
             </h1>
-            <div className="flex flex-col md:flex-row custom-two-column gap-6">
+            <section className="flex flex-col md:flex-row custom-two-column gap-6">
                 <AnimatedElement>
                     <Card>
                         <h2 className="text-2xl font-semibold text-teal-800 mb-3">
@@ -71,7 +71,7 @@ export default function TrainingsPage() {
                         </div>
                     </Card>
                 </AnimatedElement>
-            </div>
+            </section>
         </div>
     </>
 }

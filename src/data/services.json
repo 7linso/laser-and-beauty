@@ -2,31 +2,37 @@
     {
         "name": "Laser Hair Removal",
         "description": "Safe and effective hair removal using cutting-edge laser technology.",
-        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1748539566/photo_2025-05-29_12-25-59_ulyjtf.jpg"
+        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1748539566/photo_2025-05-29_12-25-59_ulyjtf.jpg",
+        "fullDescription": ""
     },
     {
         "name": "IPL Skin Rejuvenation",
         "description": "Innovative technic to treat sun damage, redness, and even skin tone.",
-        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1748539900/photo_2025-05-29_12-30-49_qxpmmi.jpg"
+        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1748539900/photo_2025-05-29_12-30-49_qxpmmi.jpg",
+        "fullDescription": ""
     },
     {
         "name": "Sugaring",
         "description": "A natural hair removal method using sugar paste for smooth skin.",
-        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1748539900/photo_2025-05-29_12-30-49_qxpmmi.jpg"
+        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1749826804/IMG_0032_ug8qx8.jpg",
+        "fullDescription": ""
     },
     {
         "name": "Waxing",
         "description": "Traditional waxing services for various body areas.",
-        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1747230799/photo_2025-05-14_08-53-21_t6vkbp.jpg"
+        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1747230799/photo_2025-05-14_08-53-21_t6vkbp.jpg",
+        "fullDescription": ""
     },
     {
         "name": "Manicure",
         "description": "Professional nail care and styling for hands.",
-        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1747229744/IMG_6496_fe0qzu.jpg"
+        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1747229744/IMG_6496_fe0qzu.jpg",
+        "fullDescription": ""
     },
     {
         "name": "Pedicure",
         "description": "Relaxing and detailed foot care including nail treatment.",
-        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1747231169/IMG_3955_mwsysa.jpg"
+        "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1747231169/IMG_3955_mwsysa.jpg",
+        "fullDescription": ""
     }
 ]

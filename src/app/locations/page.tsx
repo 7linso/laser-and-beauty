@@ -10,10 +10,10 @@ export default function LocationsPage() {
         <>
             <div className="max-w-5xl mx-auto p-8">
                 <h1 className="text-4xl font-bold text-teal-900 mb-10">
-                    Check Out Our Locations
+                    Our Locations
                 </h1>
                 {locations.map((location, index) => (
-                    <div key={index} className="flex mb-5 flex-col md:flex-row custom-two-column gap-6">
+                    <section key={index} className="flex mb-5 flex-col md:flex-row custom-two-column gap-6">
                         <AnimatedElement>
                             <Card>
                                 <div className="flex flex-col md:flex-row gap-4">
@@ -27,10 +27,13 @@ export default function LocationsPage() {
                                             </h2>
                                             <span className="text-sm text-gray-500">{location.address}</span>
                                         </Link>
-                                        <p className="text-gray-700 my-4 leading-relaxed">
+                                        <p className="text-gray-700 leading-relaxed">
                                             {location.description}
                                         </p>
-                                        <div className="mt-auto">
+                                        <Link href={location.linkGoogleMapsReviews} className="text-sm text-gray-400 hover:underline mt-2">
+                                            Check Out Reviews Here
+                                        </Link>
+                                        <div className="mt-auto pt-5">
                                             <Button bookingLink={location.linkBooking} buttonText="Explore Services Here" />
                                         </div>
                                     </div>
@@ -47,7 +50,7 @@ export default function LocationsPage() {
                                 </div>
                             </Card>
                         </AnimatedElement>
-                    </div>
+                    </section>
                 ))
                 }
             </div >
