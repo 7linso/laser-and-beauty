@@ -1,4 +1,3 @@
-import team from '@/data/team.json'
 import Image from "next/image";
 import Button from "@/components/button";
 import Card from '@/components/card';
@@ -94,31 +93,7 @@ export default function AboutPage() {
                     </Card>
                 </AnimatedElement>
             </div >
-            <section className="max-w-5xl mx-auto p-8">
-                <h1 className="text-4xl font-bold text-teal-900 mb-10">
-                    Meet Our Team
-                </h1>
-                <div className="team-grid gap-8">
-                    {team.map((t, index) => (
-                        <AnimatedElement key={index}>
-                            <Card >
-                                <div className="flex flex-col items-center">
-                                    <div className="w-40 h-40 rounded-full overflow-hidden shadow-lg mb-4 relative">
-                                        <Image
-                                            fill
-                                            src={t.image}
-                                            alt={t.name}
-                                        />
-                                    </div>
-                                    <h2 className="text-center text-xl font-semibold text-teal-800 mb-2">{t.name}</h2>
-                                    <p className="text-center text-gray-400 text-sm leading-relaxed">{t.location}</p>
-                                    <ExpandableText content={t.description} />
-                                </div>
-                            </Card>
-                        </AnimatedElement>
-                    ))}
-                </div>
-            </section>
+            
         </>
     );
 
