@@ -10,7 +10,6 @@ export default function Footer() {
                     <div>
                         <p className="text-sm font-semibold mb-3">Navigation</p>
                         <ul className="space-y-2">
-                            <li><Link href="/about" className="hover:text-teal-100 transition text-sm">About</Link></li>
                             <li><Link href="/locations" className="hover:text-teal-100 transition text-sm">Locations</Link></li>
                             <li><Link href="/services" className="hover:text-teal-100 transition text-sm">Services</Link></li>
                             <li><Link href="/trainings" className="hover:text-teal-100 transition text-sm">Trainings</Link></li>

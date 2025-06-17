@@ -44,7 +44,6 @@ export default function Header() {
                         </button>
                     </div>
                     <div className="hidden md:flex items-center space-x-8 font-medium">
-                        <Link href="/about" className="hover:text-teal-300 transition duration-200">About</Link>
                         <Link href="/locations" className="hover:text-teal-300 transition duration-200">Locations</Link>
                         <Link href="/services" className="hover:text-teal-300 transition duration-200">Services</Link>
                         <Link href="/trainings" className="hover:text-teal-300 transition duration-200">Trainings</Link>
@@ -58,7 +57,6 @@ export default function Header() {
                 </div>
                 {isOpen && (
                     <div className="md:hidden text-center flex flex-col space-y-4 py-4 font-medium transition-all">
-                        <Link href="/about" className="hover:text-teal-300 transition duration-200">About</Link>
                         <Link href="/locations" className="hover:text-teal-300 transition duration-200">Locations</Link>
                         <Link href="/services" className="hover:text-teal-300 transition duration-200">Services</Link>
                         <Link href="/trainings" className="hover:text-teal-300 transition duration-200">Trainings</Link>
