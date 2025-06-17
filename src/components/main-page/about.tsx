@@ -25,7 +25,7 @@ export default function About() {
                             At Laser&Beauty, I&apos;m proud to lead a
                             dedicated team and provide both high-quality
                             services and professional training courses.
-                            Whether you're here for a glow-up or looking
+                            Whether you&apos;re here for a glow-up or looking
                             to start your journey in esthetics, I&apos;m
                             here to support and guide you every step of
                             the way.
