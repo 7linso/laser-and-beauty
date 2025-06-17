@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Button from "@/components/button";
 import Card from '@/components/card';
-import ExpandableText from '@/components/expandable-text';
 import AnimatedElement from '@/components/animated-element';
 
 export default function AboutPage() {
