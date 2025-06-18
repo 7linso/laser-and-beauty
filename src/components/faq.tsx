@@ -1,9 +1,15 @@
 'use client'
 import { useState } from 'react'
-import AnimatedElement from '../animated-element'
-import faqs from '../../data/faq-main.json'
+import AnimatedElement from './animated-element'
 
-export default function FAQSection() {
+interface FAQSectionProps {
+    faqs: {
+        question: string;
+        answer: string[];
+    }[]
+}
+
+export default function FAQSection({ faqs }: FAQSectionProps) {
     const [openIndex, setOpenIndex] = useState<null | number>(null)
 
     const toggle = (index: number) => {
@@ -11,10 +17,7 @@ export default function FAQSection() {
     }
 
     return (
-        <section className="py-16 px-8 max-w-3xl mx-auto ">
-            <h2 className="text-4xl font-semibold text-teal-900 mb-6 text-center">
-                Frequently Asked Questions
-            </h2>
+        <section className="max-w-3xl mx-auto ">
             <AnimatedElement>
                 <div className="space-y-4 ">
                     {faqs.map((faq, index) => (

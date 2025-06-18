@@ -8,5 +8,39 @@
             "Less than 24-hour Cancellation Fee: 50% of service booked.",
             "No-show Fee: 100% of service booked."
         ]
+    },
+    {
+        "question": "What locations do you have?",
+        "answer": [
+            "Bridgewater",
+            "378 Granite Grv Rd, Winnipeg, MB R3Y 2K3",
+            "St. Vital",
+            "894 St Mary's Rd, Winnipeg, MB R2M 3R1",
+            "Downtown",
+            "55 Arthur St, Winnipeg, MB R3B 1H1"
+        ]
+    },
+    {
+        "question": "Evening Skincare Routine for Ingrown Hairs",
+        "answer": [
+            "🛁 Step-by-step Routine (2–4 times a week):",
+            "1. Cleanse the Area",
+            "Gently wash the skin with a mild, fragrance-free cleanser to remove sweat, oil, and bacteria.",
+            "2. Exfoliate (Chemical or Gentle Scrub)",
+            "After cleansing, apply a gentle chemical exfoliant (like salicylic acid or lactic acid) or a soft scrub.\nFrequency: 2–3 times per week, depending on your skin’s sensitivity.",
+            "3. Apply Targeted Serum",
+            "Use a serum with ingredients like salicylic acid, tea tree oil, glycolic acid, or witch hazel to reduce inflammation and disinfect the pores.\nOnly on the affected area, once a day in the evening.",
+            "4. Moisturize",
+            "Finish with a light, fragrance-free moisturizer to hydrate and calm the skin.\nApply daily, even on days you don’t exfoliate."
+        ]
+    },
+    {
+        "question": "Extra Tips for Preventing Ingrown Hairs",
+        "answer": [
+            "You can apply a warm compress for a few minutes before exfoliating to soften the skin and open the pores.",
+            "Do not pick or squeeze ingrown hairs — this can cause scarring or infection.",
+            "Wear loose clothing to avoid friction.",
+            "If you get ingrowns often, consider sugaring or laser hair removal as gentler long-term options."
+        ]
     }
 ]

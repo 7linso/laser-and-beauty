@@ -6,7 +6,9 @@ import Services from "@/components/main-page/services";
 import Offers from "@/components/main-page/offers";
 import Reviews from "@/components/main-page/reviews";
 import Team from "@/components/main-page/team";
-import FAQSection from "@/components/main-page/faq";
+import FAQSection from "@/components/faq";
+import faqs from '../data/faq-main.json'
+
 
 export default function HomePage() {
   const backgroundImage = 'https://res.cloudinary.com/dnxrobolb/image/upload/v1747143698/photo_2025-05-13_08-34-51_gzp2wt.jpg'
@@ -17,9 +19,15 @@ export default function HomePage() {
       <About />
       <Services />
       <Offers />
-      <Team/>
+      <Team />
       <Reviews />
-      <FAQSection/>
+      <div className="py-20">
+        <h2 className="text-4xl font-semibold text-teal-900 mb-6 text-center">
+          Frequently Asked Questions
+        </h2>
+        <FAQSection faqs={faqs} />
+      </div>
+
 
       <section className="py-20 bg-teal-900 text-center">
         <AnimatedElement>

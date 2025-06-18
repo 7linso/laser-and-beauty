@@ -15,7 +15,7 @@ export default function Offers() {
                     Get your 25% discount if you buy Laser session for 3 any areas of your body
                 </p>
                 <p className="text-teal-50 mb-4 p-2">
-                    Friendd referral Laser session 25%n OFF
+                    Friend referral Laser session 25% OFF
                 </p>
                 <Button buttonText="Book" />
             </AnimatedElement>

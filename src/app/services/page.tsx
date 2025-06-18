@@ -2,6 +2,8 @@ import services from '@/data/services.json'
 import Image from 'next/image';
 import Card from '@/components/card';
 import AnimatedElement from '@/components/animated-element';
+import FAQSection from '@/components/faq';
+import faqs from '../../data/faq.json'
 
 export default function ServicesPage() {
     return (<>
@@ -61,6 +63,12 @@ export default function ServicesPage() {
                         </p>
                     </Card>
                 </AnimatedElement>
+            </section>
+            <section className="pt-6">
+                <h1 className="text-4xl font-bold text-teal-900 mb-10">
+                    Frequently Asked Questions
+                </h1>
+                <FAQSection faqs={faqs} />
             </section>
         </div>
     </>
