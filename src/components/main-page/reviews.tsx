@@ -10,7 +10,7 @@ export default function Reviews() {
             <h2 className="text-4xl font-semibold text-center text-teal-50 mb-12">
                 What Clients Say
             </h2>
-            <div className="overflow-x-auto pb-4 scrollbar-styled">
+            <div className="overflow-x-auto pb-4 scrollbar-styled snap-x snap-mandatory">
                 <AnimatedElement>
                     <div className="flex gap-6 w-max px-1 items-start">
                         {reviews.map((review, i) => (
