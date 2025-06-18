@@ -35,6 +35,9 @@ export default function Team() {
                     </div>
                 </AnimatedElement>
             </div>
+            <p className="text-sm text-gray-400 pl-1 md:hidden animate-pulse">
+                Swipe to scroll →
+            </p>
         </section>
     )
 }
