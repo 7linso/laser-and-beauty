@@ -11,13 +11,14 @@ export default function Services() {
                 <h2 className="text-4xl font-semibold text-center text-teal-900 mb-12">
                     Our Services
                 </h2>
-                <div className="grid md:grid-cols-3 gap-8">
-                    {services
-                        .sort(() => Math.random() - 0.5)
-                        .slice(0, 3)
-                        .map((service, index) => (
-                            <AnimatedElement key={index}>
-                                <Card className="h-full">
+                <AnimatedElement >
+                    <div className="grid md:grid-cols-3 gap-8">
+                        {services
+                            .sort(() => Math.random() - 0.5)
+                            .slice(0, 3)
+                            .map((service, index) => (
+
+                                <Card className="h-full" key={index}>
                                     <div className="flex flex-col h-full">
                                         <Image
                                             width={100}
@@ -34,9 +35,9 @@ export default function Services() {
                                         </p>
                                     </div>
                                 </Card>
-                            </AnimatedElement>
-                        ))}
-                </div>
+                            ))}
+                    </div>
+                </AnimatedElement>
             </div>
             <div className="flex justify-center mt-10">
                 <Button buttonText="Learn More" bookingLink="/services" />

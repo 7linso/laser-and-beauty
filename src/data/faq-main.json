@@ -1,0 +1,12 @@
+[
+    {
+        "question": "What is your Cancelation Policy?",
+        "answer": [
+            "24-hour notice is required for all cancellations to aviod a late cancellation or no-show fee.",
+            "We provide clients with a 10-minute grace period, however if you are later than 10 minutes your appointment may need to be rescheduled and you will be required to pay a late cancellation fee.",
+            "Late Cancellation Fee: 50% of service booked.",
+            "Less than 24-hour Cancellation Fee: 50% of service booked.",
+            "No-show Fee: 100% of service booked."
+        ]
+    }
+]

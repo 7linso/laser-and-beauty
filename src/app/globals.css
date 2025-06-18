@@ -71,3 +71,41 @@ body {
     'GRAD' 0,
     'opsz' 24
 }
+
+.scrollbar-styled {
+  scrollbar-width: thin;
+  scrollbar-color: #004D40 transparent;
+}
+
+.scrollbar-styled-dark {
+  scrollbar-width: thin;
+  scrollbar-color: #76cdbe transparent;
+}
+
+.scrollbar-styled::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scrollbar-styled::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-styled::-webkit-scrollbar-thumb {
+  background-color: #004D40;
+  border-radius: 3px;
+}
+
+.scrollbar-styled::-webkit-scrollbar-thumb:hover {
+  background-color: #00695c;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+}
+
+.faq-answer.open {
+  max-height: 500px;
+  padding-bottom: 1rem;
+}
