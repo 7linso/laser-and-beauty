@@ -74,12 +74,7 @@ body {
 
 .scrollbar-styled {
   scrollbar-width: thin;
-  scrollbar-color: #004D40 transparent;
-}
-
-.scrollbar-styled-dark {
-  scrollbar-width: thin;
-  scrollbar-color: #76cdbe transparent;
+  scrollbar-color: #489588 transparent;
 }
 
 .scrollbar-styled::-webkit-scrollbar {
@@ -91,13 +86,14 @@ body {
 }
 
 .scrollbar-styled::-webkit-scrollbar-thumb {
-  background-color: #004D40;
+  background-color: #489588;
   border-radius: 3px;
 }
 
 .scrollbar-styled::-webkit-scrollbar-thumb:hover {
-  background-color: #00695c;
+  background-color: #489588;
 }
+
 
 .faq-answer {
   max-height: 0;
@@ -107,5 +103,18 @@ body {
 
 .faq-answer.open {
   max-height: 500px;
+  padding-bottom: 1rem;
+}
+
+
+.expandable-text {
+  max-height: 140px;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+  padding-bottom: 0;
+}
+
+.expandable-text.expanded {
+  max-height: 1000px;
   padding-bottom: 1rem;
 }
