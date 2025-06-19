@@ -12,12 +12,16 @@
     {
         "question": "What locations do you have?",
         "answer": [
-            "Bridgewater",
-            "378 Granite Grv Rd, Winnipeg, MB R3Y 2K3",
-            "St. Vital",
-            "894 St Mary's Rd, Winnipeg, MB R2M 3R1",
-            "Downtown",
-            "55 Arthur St, Winnipeg, MB R3B 1H1"
+            "Bridgewater - 378 Granite Grv Rd, Winnipeg, MB R3Y 2K3",
+            "St. Vital - 894 St Mary's Rd, Winnipeg, MB R2M 3R1",
+            "Downtown - 55 Arthur St, Winnipeg, MB R3B 1H1"
+        ]
+    },
+    {
+        "question": "Can I have a consultation?",
+        "answer": [
+            "Yes, you can contact the studio to have a consultation.",
+            "Our team will gladly provide details about the services and help you choose the treatment that suits you best."
         ]
     },
     {

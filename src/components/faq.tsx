@@ -17,11 +17,11 @@ export default function FAQSection({ faqs }: FAQSectionProps) {
     }
 
     return (
-        <section className="max-w-3xl mx-auto ">
+        <section className=" mx-auto ">
             <AnimatedElement>
                 <div className="space-y-4 ">
                     {faqs.map((faq, index) => (
-                        <div key={index} className="border border-gray-200 rounded-lg">
+                        <div key={index} className="border border-teal-900 rounded-lg">
                             <button onClick={() => toggle(index)}
                                 className="w-full text-left px-6 py-4 flex justify-between items-center">
                                 <span className="text-lg font-medium text-teal-900">

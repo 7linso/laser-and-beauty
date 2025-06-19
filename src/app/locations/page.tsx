@@ -15,7 +15,7 @@ export default function LocationsPage() {
                 {locations.map((location, index) => (
                     <section key={index} className="flex mb-5 flex-col md:flex-row custom-two-column gap-6">
                         <AnimatedElement>
-                            <Card>
+                            <Card className='p-4'>
                                 <div className="flex flex-col md:flex-row gap-4">
                                     <div className="md:w-2/3 flex flex-col">
                                         <Link href={location.linkGoogleMaps}>
@@ -37,16 +37,18 @@ export default function LocationsPage() {
                                             <Button bookingLink={location.linkBooking} buttonText="Explore Services Here" />
                                         </div>
                                     </div>
-                                    <div className="md:w-1/3 flex justify-center items-end">
-                                        <div className="relative w-full max-w-xs aspect-square rounded-lg overflow-hidden shadow-lg">
+                                    <div className="md:w-1/3 w-full">
+                                        <div className="relative w-full h-48 md:h-full rounded-t-lg overflow-hidden shadow-lg">
                                             <Image
-                                                fill
+                                                sizes="100vw"
                                                 src={location.image}
                                                 alt={location.address}
                                                 className="object-cover"
+                                                fill
                                             />
                                         </div>
                                     </div>
+
                                 </div>
                             </Card>
                         </AnimatedElement>

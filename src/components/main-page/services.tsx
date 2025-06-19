@@ -17,7 +17,6 @@ export default function Services() {
                             .sort(() => Math.random() - 0.5)
                             .slice(0, 3)
                             .map((service, index) => (
-
                                 <Card className="h-full" key={index}>
                                     <div className="flex flex-col h-full">
                                         <Image
@@ -25,12 +24,12 @@ export default function Services() {
                                             height={100}
                                             src={service.image}
                                             alt={service.name}
-                                            className="w-full h-48 object-cover rounded-lg mb-4"
+                                            className="w-full h-48 object-cover rounded-t-lg mb-2"
                                         />
-                                        <h2 className="text-2xl font-semibold text-teal-800 mb-3">
+                                        <h2 className="text-xl px-2 font-semibold text-teal-800 ">
                                             {service.name}
                                         </h2>
-                                        <p className="text-gray-700 leading-relaxed">
+                                        <p className="text-gray-700 p-2 leading-relaxed">
                                             {service.description}
                                         </p>
                                     </div>

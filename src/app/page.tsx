@@ -21,7 +21,7 @@ export default function HomePage() {
       <Offers />
       <Team />
       <Reviews />
-      <div className="py-20">
+      <div className="py-20 px-10">
         <h2 className="text-4xl font-semibold text-teal-900 mb-6 text-center">
           Frequently Asked Questions
         </h2>

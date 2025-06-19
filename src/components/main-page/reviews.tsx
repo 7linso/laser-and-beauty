@@ -15,7 +15,7 @@ export default function Reviews() {
                     <div className="flex gap-6 w-max px-1 items-start">
                         {reviews.map((review, i) => (
                             <Card key={i}
-                                className="w-80 min-w-[20rem] flex-shrink-0 flex flex-col min-h-[240px]">
+                                className="w-80 min-w-[20rem] flex-shrink-0 flex flex-col p-2">
                                 <div className="flex flex-col flex-grow justify-between h-full">
                                     <div>
                                         <h1 className="text-teal-800 font-semibold mb-2">

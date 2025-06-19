@@ -16,18 +16,19 @@ export default function ServicesPage() {
                     <AnimatedElement key={index}>
                         <Card className="h-full">
                             <div className="flex flex-col h-full">
-                                <div className="w-full h-48 relative rounded-lg overflow-hidden mb-4">
+                                <div className="w-full h-48 relative rounded-t-lg overflow-hidden mb-2">
                                     <Image
                                         fill
+                                        sizes="100vw"
                                         src={service.image}
                                         alt={service.name}
                                         className="object-cover"
                                     />
                                 </div>
-                                <h2 className="text-2xl font-semibold text-teal-800 mb-3">
+                                <h2 className="text-xl px-2  font-semibold text-teal-800">
                                     {service.name}
                                 </h2>
-                                <p className="text-gray-700 leading-relaxed">
+                                <p className="text-gray-700 p-2 text-sm leading-relaxed">
                                     {service.description}
                                 </p>
                             </div>
@@ -40,7 +41,7 @@ export default function ServicesPage() {
                     Important Note!
                 </h1>
                 <AnimatedElement>
-                    <Card>
+                    <Card className='p-4'>
                         <h2 className="text-2xl font-semibold text-teal-800 mb-3">
                             Cancellation Policy
                         </h2>

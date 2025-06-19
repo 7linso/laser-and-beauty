@@ -13,7 +13,7 @@ export default function TrainingsPage() {
             </h1>
             <section className="flex flex-col md:flex-row custom-two-column gap-6">
                 <AnimatedElement>
-                    <Card>
+                    <Card className="p-4">
                         <h2 className="text-2xl font-semibold text-teal-800 mb-3">
                             Ready to begin a new chapter?
                         </h2>
@@ -62,9 +62,9 @@ export default function TrainingsPage() {
                     </Card>
                 </AnimatedElement>
                 <AnimatedElement>
-                    <Card>
-                        <h3 className="text-2xl font-semibold text-teal-800 mb-3 text-center"
-                        >Watch the Course Preview
+                    <Card className="p-4">
+                        <h3 className="text-2xl font-semibold text-teal-800 mb-3 text-center">
+                            Watch the Course Preview
                         </h3>
                         <div className="relative w-full aspect-[9/16] overflow-hidden rounded-lg">
                             <VideoPlayer link={videoSource} />

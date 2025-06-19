@@ -11,6 +11,7 @@ export default function Hero({ backgroundImage }: HeroProps) {
         <section className="relative h-[90vh] flex flex-col lg:flex-row text-white overflow-hidden">
             <div className="relative w-full lg:w-1/2 h-full">
                 <Image
+                    sizes="100vw"
                     fill
                     priority
                     src={backgroundImage}
