@@ -25,6 +25,13 @@
         ]
     },
     {
+        "question": "How many treatments do I need for laser hair removal?",
+        "answer": [
+            "The number of treatments varies depending on the area being treated, your hair type, and individual hair growth cycles. Most clients need between 8 and 12 sessions for the best results, spaced about 4 to 6 weeks apart. Some areas or hair types may require occasional maintenance treatments.",
+            "After completing the full course, we usually recommend one maintenance (touch-up) session per year to keep your skin smooth and prevent new hair growth."
+        ]
+    },
+    {
         "question": "Evening Skincare Routine for Ingrown Hairs",
         "answer": [
             "🛁 Step-by-step Routine (2–4 times a week):",
@@ -47,4 +54,5 @@
             "If you get ingrowns often, consider sugaring or laser hair removal as gentler long-term options."
         ]
     }
+    
 ]
