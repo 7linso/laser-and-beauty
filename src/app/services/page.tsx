@@ -2,7 +2,7 @@ import services from '@/data/services.json'
 import Image from 'next/image';
 import Card from '@/components/card';
 import AnimatedElement from '@/components/animated-element';
-import FAQSection from '@/components/faq';
+import FAQSection from '@/components/faq-section';
 import faqs from '../../data/faq.json'
 
 export default function ServicesPage() {

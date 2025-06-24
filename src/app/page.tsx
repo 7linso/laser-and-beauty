@@ -6,7 +6,7 @@ import Services from "@/components/main-page/services";
 import Offers from "@/components/main-page/offers";
 import Reviews from "@/components/main-page/reviews";
 import Team from "@/components/main-page/team";
-import FAQSection from "@/components/faq";
+import FAQSection from "@/components/faq-section";
 import faqs from '../data/faq-main.json'
 
 
