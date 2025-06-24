@@ -12,7 +12,7 @@ export default function Team() {
             </h2>
             <div className="overflow-x-auto pb-4 scrollbar-styled">
                 <AnimatedElement >
-                    <div className="flex gap-6 w-max px-1 items-stretch">
+                    <div className="flex gap-6 w-max px-1 items-start">
                         {team.map((t, index) => (
                             <Card key={index}
                                 className="w-80 min-w-[20rem] flex-shrink-0 flex flex-col p-2">
