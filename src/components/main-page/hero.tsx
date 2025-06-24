@@ -10,10 +10,9 @@ export default function Hero({ backgroundImage }: HeroProps) {
     return (
         <section className="relative h-[90vh] flex flex-col lg:flex-row text-white overflow-hidden">
             <div className="relative w-full lg:w-1/2 h-full">
-                <Image
+                <Image priority
                     sizes="100vw"
                     fill
-                    priority
                     src={backgroundImage}
                     alt="Laser and Beauty"
                     className="object-cover z-0"
