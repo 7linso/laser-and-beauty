@@ -18,7 +18,7 @@ export default function FAQSection({ faqs }: FAQSectionProps) {
     }
 
     return (
-        <section className="mx-auto">
+        <section className="max-w-7xl mx-auto">
             <AnimatedElement>
                 <div className="space-y-4">
                     {faqs.map((faq, index) => (

@@ -12,7 +12,7 @@ export default function Reviews() {
             </h2>
             <div className="overflow-x-auto pb-4 scrollbar-styled">
                 <AnimatedElement>
-                    <div className="flex gap-6 w-max px-1 items-start">
+                    <div className="flex gap-6 w-max mx-auto items-start">
                         {reviews.map((review, i) => (
                             <Card key={i}
                                 className="w-80 min-w-[20rem] flex-shrink-0 flex flex-col p-2">

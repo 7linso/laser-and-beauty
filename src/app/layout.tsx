@@ -53,13 +53,15 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="font-montserrat min-h-screen flex flex-col">
+      <body className="flex flex-col min-h-screen font-montserrat bg-grad">
         <Header />
-        <main className="flex-grow bg-grad">
+        <main className="flex-grow">
           {children}
         </main>
         <Footer />
       </body>
+
+
     </html>
   );
 }

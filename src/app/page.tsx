@@ -27,8 +27,7 @@ export default function HomePage() {
         </h2>
         <FAQSection faqs={faqs} />
       </div>
-
-
+      
       <section className="py-20 bg-teal-900 text-center">
         <AnimatedElement>
           <h2 className="text-4xl font-semibold text-teal-50 mb-6">
