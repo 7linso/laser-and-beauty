@@ -1,13 +1,13 @@
 [
     {
         "name": "Laser Hair Removal",
-        "description": "Safe and effective hair removal using cutting-edge laser technology.",
+        "description": "Safe and effective hair removal using cutting-edge laser technology using IPL Machine and Diode Laser.",
         "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1750265817/IMG_1679_oaj1p5.jpg",
         "fullDescription": ""
     },
     {
         "name": "IPL Skin Rejuvenation",
-        "description": "Innovative technic to treat sun damage, redness, and even skin tone.",
+        "description": "Innovative technic to treat sun damage, redness, and even skin tone with help of IPL Machine.",
         "image": "https://res.cloudinary.com/dnxrobolb/image/upload/v1750267274/ipl-treatment_ybt3tb.webp",
         "fullDescription": ""
     },
