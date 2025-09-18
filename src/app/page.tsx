@@ -11,7 +11,8 @@ import faqs from '../data/faq-main.json'
 
 
 export default function HomePage() {
-  const backgroundImage = 'https://res.cloudinary.com/dqvthdtuu/image/upload/v1758205431/photo_2025-05-13_08-34-51_gzp2wt_va6dap.jpg'
+  const backgroundImage =
+    'https://res.cloudinary.com/dqvthdtuu/image/upload/v1758205431/photo_2025-05-13_08-34-51_gzp2wt_va6dap.jpg'
 
   return (
     <>
@@ -27,7 +28,7 @@ export default function HomePage() {
         </h2>
         <FAQSection faqs={faqs} />
       </div>
-      
+
       <section className="py-20 bg-teal-900 text-center">
         <AnimatedElement>
           <h2 className="text-4xl font-semibold text-teal-50 mb-6">
