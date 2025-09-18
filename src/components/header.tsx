@@ -23,7 +23,7 @@ export default function Header() {
                         <Link href="/" className="flex items-center">
                             <div className="w-12 h-12 flex items-center justify-center overflow-hidden">
                                 <Image
-                                    src="https://res.cloudinary.com/dnxrobolb/image/upload/v1746538408/favicon_jpl0nh.png"
+                                    src="https://res.cloudinary.com/dqvthdtuu/image/upload/v1758205430/favicon_jpl0nh_bkinno.png"
                                     alt="icon"
                                     width={48}
                                     height={48}

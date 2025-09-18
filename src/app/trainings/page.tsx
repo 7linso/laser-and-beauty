@@ -5,7 +5,7 @@ import AnimatedElement from "@/components/animated-element";
 
 export default function TrainingsPage() {
   const videoSource =
-    "https://res.cloudinary.com/dnxrobolb/video/upload/v1746549568/video_2025-05-06_11-38-31_dxaxng.mp4";
+    "https://res.cloudinary.com/dqvthdtuu/video/upload/v1758205433/video_2025-05-06_11-38-31_dxaxng_mbgktt.mp4";
 
   return (
     <div className="max-w-5xl mx-auto p-8">

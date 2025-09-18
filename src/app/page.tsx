@@ -11,7 +11,7 @@ import faqs from '../data/faq-main.json'
 
 
 export default function HomePage() {
-  const backgroundImage = 'https://res.cloudinary.com/dnxrobolb/image/upload/v1747143698/photo_2025-05-13_08-34-51_gzp2wt.jpg'
+  const backgroundImage = 'https://res.cloudinary.com/dqvthdtuu/image/upload/v1758205431/photo_2025-05-13_08-34-51_gzp2wt_va6dap.jpg'
 
   return (
     <>
