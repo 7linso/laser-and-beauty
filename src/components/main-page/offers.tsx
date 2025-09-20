@@ -9,7 +9,7 @@ export default function Offers() {
                     Our Special Offers
                 </h2>
                 <p className="text-teal-50 p-2">
-                    First visit Laser session 25% OFF
+                    First visit Laser session 25% OFF or FREE underarms
                 </p>
                 <p className="text-teal-50 p-2">
                     Get your 25% discount if you buy Laser session for 3 any areas of your body

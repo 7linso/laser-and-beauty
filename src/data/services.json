@@ -40,5 +40,17 @@
         "description": "Relaxing and detailed foot care including nail treatment.",
         "image": "https://res.cloudinary.com/dqvthdtuu/image/upload/v1758205430/IMG_3955_mwsysa_b2zk79.jpg",
         "fullDescription": ""
+    },
+    {
+        "name": "Last Lift",
+        "description": "A gentle and effective way to enhance your natural eyelashes without the need for extensions.",
+        "image": "https://res.cloudinary.com/dqvthdtuu/image/upload/v1758352447/IMG_5763_ndmg4m.jpg",
+        "fullDescription": ""
+    },
+    {
+        "name": "Brow Lift",
+        "description": "A cosmetic procedure that raises and smooths the forehead to create a more youthful, refreshed appearance.",
+        "image": "https://res.cloudinary.com/dqvthdtuu/image/upload/v1758354466/IMG_3694_wmagis.jpg",
+        "fullDescription": ""
     }
 ]
