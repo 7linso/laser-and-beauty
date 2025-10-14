@@ -8,17 +8,21 @@ import Reviews from "@/components/main-page/reviews";
 import Team from "@/components/main-page/team";
 import FAQSection from "@/components/faq-section";
 import faqs from '../data/faq-main.json'
+import VideoPreview from "@/components/main-page/video-preview";
 
 
 export default function HomePage() {
   const backgroundImage =
     'https://res.cloudinary.com/dqvthdtuu/image/upload/v1758205431/photo_2025-05-13_08-34-51_gzp2wt_va6dap.jpg'
 
+  const backgroundVideo =
+    'https://res.cloudinary.com/dqvthdtuu/video/upload/v1760449661/IMG_3544_sn22g3.mov'
   return (
     <>
       <Hero backgroundImage={backgroundImage} />
       <About />
       <Services />
+      <VideoPreview backgroundVideo={backgroundVideo} />
       <Offers />
       <Team />
       <Reviews />
