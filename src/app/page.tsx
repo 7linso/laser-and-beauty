@@ -21,9 +21,12 @@ export default function HomePage() {
     <>
       <Hero backgroundImage={backgroundImage} />
       <About />
-      <Services />
-      <VideoPreview backgroundVideo={backgroundVideo} />
       <Offers />
+      <VideoPreview backgroundVideo={backgroundVideo} />
+      <Services />
+      
+      
+      
       <Team />
       <Reviews />
       <div className="py-20 px-10">
