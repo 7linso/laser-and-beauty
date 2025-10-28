@@ -10,7 +10,6 @@ import FAQSection from "@/components/faq-section";
 import faqs from '../data/faq-main.json'
 import VideoPreview from "@/components/main-page/video-preview";
 
-
 export default function HomePage() {
   const backgroundImage =
     'https://res.cloudinary.com/dqvthdtuu/image/upload/v1758205431/photo_2025-05-13_08-34-51_gzp2wt_va6dap.jpg'
@@ -24,8 +23,6 @@ export default function HomePage() {
       <Offers />
       <VideoPreview backgroundVideo={backgroundVideo} />
       <Services />
-      
-      
       
       <Team />
       <Reviews />

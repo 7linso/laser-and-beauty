@@ -102,6 +102,7 @@ export default function Gallery({
                                     className="h-full w-full object-cover block"
                                     loading={i === 0 ? "eager" : "lazy"}
                                     draggable={false}
+                                    sizes="(min-width: 1024px) 50vw, 100vw"
                                 />
                             </div>
                         );

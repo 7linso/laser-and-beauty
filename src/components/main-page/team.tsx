@@ -20,7 +20,14 @@ export default function Team() {
                             >
                                 <div className="flex flex-col items-center">
                                     <div className="w-40 h-40 rounded-full overflow-hidden shadow-lg mb-4 relative">
-                                        <Image sizes="50vw" fill src={t.image} alt={t.name} />
+                                        <Image
+                                            sizes="50vw"
+                                            fill
+                                            src={t.image}
+                                            alt={t.name}
+                                            loading="lazy"
+                                            draggable={false}
+                                        />
                                     </div>
                                     <h2 className="text-center text-xl font-semibold text-teal-800 mb-1">
                                         {t.name}

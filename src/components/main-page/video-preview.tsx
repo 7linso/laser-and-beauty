@@ -7,7 +7,7 @@ interface VideoProps {
 
 export default function VideoPreview({ backgroundVideo }: VideoProps) {
     return (
-        <section className="relative h-[90vh] flex flex-col lg:flex-row text-white overflow-hidden">
+        <section className="relative h-[90vh] flex flex-col lg:flex-row text-white overflow-hidden  bg-teal-900">
             <div className="relative w-full lg:w-1/2 h-full">
                 <VideoPlayer link={backgroundVideo} className="h-full w-full object-cover object-bottom md:object-[center_70%]" />
 

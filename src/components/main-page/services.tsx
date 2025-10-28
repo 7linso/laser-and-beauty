@@ -6,7 +6,7 @@ import Image from "next/image"
 
 export default function Services() {
     return (
-        <section className="py-20 p-8">
+        <section className="py-20 p-8 bg-teal-600">
             <div className="max-w-6xl mx-auto ">
                 <h2 className="text-4xl font-semibold text-center text-teal-900 mb-12">
                     Our Services
@@ -22,6 +22,8 @@ export default function Services() {
                                         <Image
                                             width={100}
                                             height={100}
+                                            loading="lazy"
+                                            draggable="false"
                                             src={service.image}
                                             alt={service.name}
                                             className="w-full h-48 object-cover rounded-t-lg mb-2"

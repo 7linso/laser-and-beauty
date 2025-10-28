@@ -36,7 +36,7 @@ export default function Header() {
                         </Link>
                     </div>
                     <div className="md:hidden">
-                        <button
+                        <button 
                             onClick={() => setIsOpen(!isOpen)}
                             className="text-white text-2xl focus:outline-none transition duration-200"
                         >

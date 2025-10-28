@@ -17,9 +17,11 @@ export default function ServicesPage() {
                         <Card className="h-full">
                             <div className="flex flex-col h-full">
                                 <div className="w-full h-48 relative rounded-t-lg overflow-hidden mb-2">
-                                    <Image priority
+                                    <Image
                                         fill
-                                        sizes="100vw"
+                                        draggable="false"
+                                        sizes="(min-width: 1024px) 50vw, 80vw"
+                                        priority={index === 0}
                                         src={service.image}
                                         alt={service.name}
                                         className="object-cover"

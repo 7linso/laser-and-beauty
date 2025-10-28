@@ -26,6 +26,7 @@ export default function AnimatedElement({ children, variant = 'left' }: Animated
             initial="hidden"
             animate="visible"
             transition={{ duration: 0.6, ease: 'easeOut' }}
+            viewport={{once: true}}
         >
             {children}
         </motion.div>

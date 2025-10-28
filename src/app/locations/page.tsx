@@ -14,7 +14,7 @@ export default function LocationsPage() {
                 </h1>
                 {locations.map((location, index) => (
                     <section key={index} className="flex mb-5 flex-col md:flex-row custom-two-column gap-6">
-                        <AnimatedElement>
+                        <AnimatedElement >
                             <Card className='p-4'>
                                 <div className="flex flex-col md:flex-row gap-4">
                                     <div className="md:w-2/3 flex flex-col">
@@ -25,8 +25,9 @@ export default function LocationsPage() {
                                                 </span>
                                                 {location.location}
                                             </h2>
-                                            <span className="text-sm text-gray-500">{location.address}</span>
                                         </Link>
+                                        <span className="text-sm text-gray-500">{location.address}</span>
+
                                         <p className="text-gray-700 leading-relaxed">
                                             {location.description}
                                         </p>
@@ -40,7 +41,9 @@ export default function LocationsPage() {
                                     <div className="md:w-1/3 w-full">
                                         <div className="relative w-full h-48 md:h-full rounded-t-lg overflow-hidden shadow-lg">
                                             <Image
-                                                sizes="100vw"
+                                                draggable="false"
+                                                priority={index === 0}
+                                                sizes="(min-width: 1024px) 50vw, 100vw"
                                                 src={location.image}
                                                 alt={location.address}
                                                 className="object-cover"

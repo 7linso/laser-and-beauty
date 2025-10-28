@@ -4,6 +4,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+html {
+  font-size: clamp(14px, 1.2vw, 18px);
+}
+
 @media(max-width: 859px) {
   .custom-collapse {
     display: none;
