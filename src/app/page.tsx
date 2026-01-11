@@ -7,23 +7,38 @@ import Offers from "@/components/main-page/offers";
 import Reviews from "@/components/main-page/reviews";
 import Team from "@/components/main-page/team";
 import FAQSection from "@/components/faq-section";
-import faqs from '../data/faq-main.json'
+import faqs from "../data/faq-main.json";
 import VideoPreview from "@/components/main-page/video-preview";
+import Promo from "@/components/main-page/promo";
 
 export default function HomePage() {
   const backgroundImage =
-    'https://res.cloudinary.com/dqvthdtuu/image/upload/v1758205431/photo_2025-05-13_08-34-51_gzp2wt_va6dap.jpg'
+    "https://res.cloudinary.com/dqvthdtuu/image/upload/v1758205431/photo_2025-05-13_08-34-51_gzp2wt_va6dap.jpg";
 
   const backgroundVideo =
-    'https://res.cloudinary.com/dqvthdtuu/video/upload/v1760449661/IMG_3544_sn22g3.mov'
+    "https://res.cloudinary.com/dqvthdtuu/video/upload/v1760449661/IMG_3544_sn22g3.mov";
   return (
     <>
+      <Promo />
       <Hero backgroundImage={backgroundImage} />
       <About />
       <Offers />
-      <VideoPreview backgroundVideo={backgroundVideo} />
+
+      <VideoPreview
+        backgroundVideo={backgroundVideo}
+        text="New! Splendor X with BLEND X technology, it combines Alexandrite and Nd:YAG wavelengths for the best results on all skin types."
+        points={["Fast", "Effective", "Safe"]}
+      />
+
       <Services />
-      
+
+      <VideoPreview
+        backgroundVideo={backgroundVideo}
+        text="We're dedicated to providing each client with the highest
+                quality service and an exceptional experience"
+        points={["Comfort", "Confidence", "Satisfaction"]}
+      />
+
       <Team />
       <Reviews />
       <div className="py-20 px-10">

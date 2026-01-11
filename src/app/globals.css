@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 html {
   font-size: clamp(14px, 1.2vw, 18px);
 }
 
-@media(max-width: 859px) {
+@media (max-width: 859px) {
   .custom-collapse {
     display: none;
   }
@@ -24,7 +24,7 @@ html {
   }
 }
 
-@media(min-width: 860px) {
+@media (min-width: 860px) {
   .custom-toggle {
     display: none !important;
   }
@@ -63,17 +63,12 @@ html {
 }
 
 .bg-grad {
-  background:
-    linear-gradient(to bottom, #ddfffc, #057c70);
+  background: linear-gradient(to bottom, #ddfffc, #057c70);
   background-attachment: fixed;
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
 .scrollbar-styled {
@@ -98,7 +93,6 @@ html {
   background-color: #489588;
 }
 
-
 .faq-answer {
   max-height: 0;
   overflow: hidden;
@@ -121,4 +115,24 @@ html {
 .expandable-text.expanded {
   max-height: 1000px;
   padding-bottom: 1rem;
+}
+
+@keyframes promo-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.promo-track {
+  width: max-content;
+  animation: promo-scroll 30s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .promo-track {
+    animation: none;
+  }
 }

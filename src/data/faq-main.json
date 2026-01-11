@@ -1,66 +1,74 @@
 [
-    {
-        "question": "What is your Cancelation Policy?",
-        "answer": [
-            "24-hour notice is required for all cancellations to aviod a late cancellation or no-show fee.",
-            "We provide clients with a 10-minute grace period, however if you are later than 10 minutes your appointment may need to be rescheduled and you will be required to pay a late cancellation fee.",
-            "Late Cancellation Fee: 50% of service booked.",
-            "Less than 24-hour Cancellation Fee: 50% of service booked.",
-            "No-show Fee: 100% of service booked."
-        ]
-    },
-    {
-        "question": "What locations do you have?",
-        "answer": [
-            "Bridgewater - 378 Granite Grv Rd, Winnipeg, MB R3Y 2K3",
-            "St. Vital - 894 St Mary's Rd, Winnipeg, MB R2M 3R1",
-            "Downtown - 55 Arthur St, Winnipeg, MB R3B 1H1"
-        ]
-    },
-    {
-        "question": "Can I have a consultation?",
-        "answer": [
-            "Yes, you can contact the studio to have a consultation.",
-            "Our team will gladly provide details about the services and help you choose the treatment that suits you best."
-        ]
-    },
-    {
-        "question": "How many treatments do I need for laser hair removal?",
-        "answer": [
-            "The number of treatments varies depending on the area being treated, your hair type, and individual hair growth cycles. Most clients need between 8 and 12 sessions for the best results, spaced about 4 to 6 weeks apart. Some areas or hair types may require occasional maintenance treatments.",
-            "Not to mention, laser treatments are most effective on dark hair, so we cannot guarantee satisfying results for gray or blonde hair.",
-            "After completing the full course, we usually recommend one maintenance (touch-up) session per year to keep your skin smooth and prevent new hair growth."
-        ]
-    },
-    {
-        "question": "What is Diode Skin Rejuvenation?",
-        "answer": [
-            "Diode skin rejuvenation is an advanced, non-invasive treatment that helps restore a youthful, healthy appearance of the skin. Unlike IPL rejuvenation, which requires fewer but less frequent treatments, diode rejuvenation works in a gentle and progressive way — delivering visible and long-lasting results.",
-            "The diode laser stimulates collagen production deep within the skin while improving circulation and cellular renewal. This leads to a smoother, brighter, and healthier-looking complexion.",
-            "It is an awesome treatment to deal with fine lines and wrinkles, skin texture and elasticity, uneven skintone, pigmentation and age spots, post-acne marks and scarring, Active acne (helps reduce inflammation and breakouts)."
-        ]
-    },
-    {
-        "question": "Evening Skincare Routine for Ingrown Hairs",
-        "answer": [
-            "🛁 Step-by-step Routine (2–4 times a week):",
-            "1. Cleanse the Area",
-            "Gently wash the skin with a mild, fragrance-free cleanser to remove sweat, oil, and bacteria.",
-            "2. Exfoliate (Chemical or Gentle Scrub)",
-            "After cleansing, apply a gentle chemical exfoliant (like salicylic acid or lactic acid) or a soft scrub.\nFrequency: 2–3 times per week, depending on your skin’s sensitivity.",
-            "3. Apply Targeted Serum",
-            "Use a serum with ingredients like salicylic acid, tea tree oil, glycolic acid, or witch hazel to reduce inflammation and disinfect the pores.\nOnly on the affected area, once a day in the evening.",
-            "4. Moisturize",
-            "Finish with a light, fragrance-free moisturizer to hydrate and calm the skin.\nApply daily, even on days you don’t exfoliate."
-        ]
-    },
-    {
-        "question": "Extra Tips for Preventing Ingrown Hairs",
-        "answer": [
-            "You can apply a warm compress for a few minutes before exfoliating to soften the skin and open the pores.",
-            "Do not pick or squeeze ingrown hairs — this can cause scarring or infection.",
-            "Wear loose clothing to avoid friction.",
-            "If you get ingrowns often, consider sugaring or laser hair removal as gentler long-term options."
-        ]
-    }
+  {
+    "question": "What is your Cancelation Policy?",
+    "answer": [
+      "24-hour notice is required for all cancellations to aviod a late cancellation or no-show fee.",
+      "We provide clients with a 10-minute grace period, however if you are later than 10 minutes your appointment may need to be rescheduled and you will be required to pay a late cancellation fee.",
+      "Late Cancellation Fee: 50% of service booked.",
+      "Less than 24-hour Cancellation Fee: 50% of service booked.",
+      "No-show Fee: 100% of service booked."
+    ]
+  },
+  {
+    "question": "What locations do you have?",
+    "answer": [
+      "Bridgewater - 378 Granite Grv Rd, Winnipeg, MB R3Y 2K3",
+      "St. Vital - 894 St Mary's Rd, Winnipeg, MB R2M 3R1",
+      "Downtown - 55 Arthur St, Winnipeg, MB R3B 1H1"
+    ]
+  },
+  {
+    "question": "Can I have a consultation?",
+    "answer": [
+      "Yes, you can contact the studio to have a consultation.",
+      "Our team will gladly provide details about the services and help you choose the treatment that suits you best."
+    ]
+  },
+  {
+    "question": "What is Alexandrite and Nd:YAG laser hair removal?",
+    "answer": [
+      "This revolutionary technology is transforming everything about laser hair removal.",
+      "Powered by Splendor X and BLEND X™ technology, it provides safe, fast, and highly effective results for every skin type. The system combines Alexandrite (755 nm) and Nd:YAG (1064 nm) wavelengths, ensuring exceptional performance on both light and dark skin tones.",
+      "Unlike diode laser hair removal, it typically requires only 6 sessions instead of 8–12 to achieve stunning results. It also works safely on all skin types, making it an excellent choice for people of any skin tone."
+    ]
+  },
+  {
+    "question": "How many treatments do I need for laser hair removal?",
+    "answer": [
+      "The number of treatments varies depending on the area being treated, your hair type, and individual hair growth cycles. Most clients need between 8 and 12 sessions for the best results, spaced about 4 to 6 weeks apart. Some areas or hair types may require occasional maintenance treatments.",
+      "Not to mention, laser treatments are most effective on dark hair, so we cannot guarantee satisfying results for gray or blonde hair.",
+      "After completing the full course, we usually recommend one maintenance (touch-up) session per year to keep your skin smooth and prevent new hair growth."
+    ]
+  },
+  {
+    "question": "What is Diode Skin Rejuvenation?",
+    "answer": [
+      "Diode skin rejuvenation is an advanced, non-invasive treatment that helps restore a youthful, healthy appearance of the skin. Unlike IPL rejuvenation, which requires fewer but less frequent treatments, diode rejuvenation works in a gentle and progressive way — delivering visible and long-lasting results.",
+      "The diode laser stimulates collagen production deep within the skin while improving circulation and cellular renewal. This leads to a smoother, brighter, and healthier-looking complexion.",
+      "It is an awesome treatment to deal with fine lines and wrinkles, skin texture and elasticity, uneven skintone, pigmentation and age spots, post-acne marks and scarring, Active acne (helps reduce inflammation and breakouts)."
+    ]
+  },
+  {
+    "question": "Evening Skincare Routine for Ingrown Hairs",
+    "answer": [
+      "🛁 Step-by-step Routine (2–4 times a week):",
+      "1. Cleanse the Area",
+      "Gently wash the skin with a mild, fragrance-free cleanser to remove sweat, oil, and bacteria.",
+      "2. Exfoliate (Chemical or Gentle Scrub)",
+      "After cleansing, apply a gentle chemical exfoliant (like salicylic acid or lactic acid) or a soft scrub.\nFrequency: 2–3 times per week, depending on your skin’s sensitivity.",
+      "3. Apply Targeted Serum",
+      "Use a serum with ingredients like salicylic acid, tea tree oil, glycolic acid, or witch hazel to reduce inflammation and disinfect the pores.\nOnly on the affected area, once a day in the evening.",
+      "4. Moisturize",
+      "Finish with a light, fragrance-free moisturizer to hydrate and calm the skin.\nApply daily, even on days you don’t exfoliate."
+    ]
+  },
+  {
+    "question": "Extra Tips for Preventing Ingrown Hairs",
+    "answer": [
+      "You can apply a warm compress for a few minutes before exfoliating to soften the skin and open the pores.",
+      "Do not pick or squeeze ingrown hairs — this can cause scarring or infection.",
+      "Wear loose clothing to avoid friction.",
+      "If you get ingrowns often, consider sugaring or laser hair removal as gentler long-term options."
+    ]
+  }
 ]
