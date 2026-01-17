@@ -6,21 +6,24 @@ export default function Offers() {
     <section className="pt-20 pb-16 text-center">
       <AnimatedElement>
         <h2 className="text-4xl font-semibold mb-6 text-teal-900">
-          Our Special Offers
+          Laser Hair Removal Promotions
         </h2>
         <p className="p-2 font-semibold text-teal-900">
-          First visit Laser session 20% OFF or FREE underarms
+          20% OFF your First laser session or FREE underarms
         </p>
         <p className=" font-semibold p-2 text-teal-900">
-          Friend referral Laser session 20% OFF
+            Receive 20% OFF when you refer a friend
         </p>
         <p className=" font-semibold p-2 text-teal-900">
-          Get any 3 areas and Get 20% OFF
+          Get 20% OFF when you book any 3 areas
+        </p>
+        <p className=" font-semibold p-2 text-teal-900">
+          Pay for 5 sessions and Get 1 for FREE
         </p>
         <p className="mb-4 p-2 font-semibold text-teal-900">
-          <span className="font-bold">Diode SPECIAL: </span>
+          <span className="font-bold">DIODE Laser SPECIAL: </span>
           <br></br>
-          Buy for 5 sessions or more and Pay only 50$ per area!
+           Book 5 areas or more and pay only $50 per area
         </p>
         <Button buttonText="Book"/>
       </AnimatedElement>
