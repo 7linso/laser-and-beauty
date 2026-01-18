@@ -9,7 +9,7 @@ import Team from "@/components/main-page/team";
 import FAQSection from "@/components/faq-section";
 import faqs from "../data/faq-main.json";
 import VideoPreview from "@/components/main-page/video-preview";
-import Promo from "@/components/main-page/promo";
+// import Promo from "@/components/main-page/promo";
 
 export default function HomePage() {
   const backgroundImage =
@@ -19,7 +19,7 @@ export default function HomePage() {
     "https://res.cloudinary.com/dqvthdtuu/video/upload/v1760449661/IMG_3544_sn22g3.mov";
   return (
     <>
-      <Promo />
+      {/* <Promo /> */}
       <Hero backgroundImage={backgroundImage} />
       <About />
       <Offers />

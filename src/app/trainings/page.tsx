@@ -1,10 +1,10 @@
-import VideoPlayer from "@/components/video-player";
+import VideoPlayer from "@/components/VideoPlayer";
 import Button from "@/components/button";
 import Card from "@/components/card";
 import AnimatedElement from "@/components/animated-element";
 import Gallery from "@/components/gallery";
-import pedicureImages from "../../data/pedicure-gallery.json"
-import manicureImages from "../../data/manicure-gallery.json"
+import pedicureImages from "../../data/pedicure-gallery.json";
+import manicureImages from "../../data/manicure-gallery.json";
 
 export default function TrainingsPage() {
   const videoSource =
@@ -26,8 +26,8 @@ export default function TrainingsPage() {
                 Ready to begin a new chapter?
               </h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                This course is thoughtfully designed to give you the skills
-                and confidence you need to launch your own sugaring business.
+                This course is thoughtfully designed to give you the skills and
+                confidence you need to launch your own sugaring business.
                 Whether you&apos;re starting from scratch or looking to enhance
                 your knowledge, you&apos;re in the right place!
               </p>
@@ -66,8 +66,8 @@ export default function TrainingsPage() {
                 Prefer Waxing Instead?
               </h2>
               <p className="text-gray-700 mb-4">
-                If sugaring isn&apos;t quite what you&apos;re looking for, we also
-                offer a complete professional waxing course that covers
+                If sugaring isn&apos;t quite what you&apos;re looking for, we
+                also offer a complete professional waxing course that covers
                 everything you need to get started.
               </p>
 
@@ -107,10 +107,17 @@ export default function TrainingsPage() {
                 E-File Pedicure Training
               </h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Enhance your professional skills with our 1-day, 6-hour E-File Pedicure Training designed for experienced nail technicians. This intensive course will teach you how to perform a modern pedicure using an e-file with pododiscs — without cutting tools. You&apos;ll learn safe and precise techniques for cuticle work, callus removal, and professional finishing.
+                Enhance your professional skills with our 1-day, 6-hour E-File
+                Pedicure Training designed for experienced nail technicians.
+                This intensive course will teach you how to perform a modern
+                pedicure using an e-file with pododiscs — without cutting tools.
+                You&apos;ll learn safe and precise techniques for cuticle work,
+                callus removal, and professional finishing.
               </p>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                By the end of the training, you will feel confident in offering a safe, high-quality, and in-demand pedicure service that your clients will love.
+                By the end of the training, you will feel confident in offering
+                a safe, high-quality, and in-demand pedicure service that your
+                clients will love.
               </p>
 
               <h2 className="text-2xl font-semibold text-teal-800 mb-3">
@@ -119,7 +126,10 @@ export default function TrainingsPage() {
               <ul className="list-disc list-inside text-gray-700 mb-6 leading-relaxed">
                 <li>Duration: 1 day (6 hours)</li>
                 <li>Practice: Work on 2 live models</li>
-                <li>Focus: E-file pedicure techniques, pododiscs, safe cuticle treatment</li>
+                <li>
+                  Focus: E-file pedicure techniques, pododiscs, safe cuticle
+                  treatment
+                </li>
               </ul>
 
               <Button />
@@ -142,7 +152,6 @@ export default function TrainingsPage() {
         </Card>
       </AnimatedElement>
 
-
       <AnimatedElement>
         <Card className="p-6">
           {/* Flex container: column on mobile, row on md+ */}
@@ -153,10 +162,16 @@ export default function TrainingsPage() {
                 E-File Manicure Training
               </h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Take your manicure skills to the next level with our 1-day intensive E-File Manicure Training designed for experienced nail technicians. In this course, you&apos;ll learn how to perform a flawless manicure with gel polish application under the cuticle for a perfectly clean and long-lasting look.
+                Take your manicure skills to the next level with our 1-day
+                intensive E-File Manicure Training designed for experienced nail
+                technicians. In this course, you&apos;ll learn how to perform a
+                flawless manicure with gel polish application under the cuticle
+                for a perfectly clean and long-lasting look.
               </p>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                By the end of the training, you’ll feel confident offering a precise, modern, and in-demand manicure service that keeps clients coming back.
+                By the end of the training, you’ll feel confident offering a
+                precise, modern, and in-demand manicure service that keeps
+                clients coming back.
               </p>
 
               <h2 className="text-2xl font-semibold text-teal-800 mb-3">
@@ -165,7 +180,10 @@ export default function TrainingsPage() {
               <ul className="list-disc list-inside text-gray-700 mb-6 leading-relaxed">
                 <li>Duration: 1 day (practice-focused)</li>
                 <li>Work on 2 models</li>
-                <li>Techniques: Safe cuticle work with e-file, gel polish application under the cuticle</li>
+                <li>
+                  Techniques: Safe cuticle work with e-file, gel polish
+                  application under the cuticle
+                </li>
               </ul>
 
               <Button />

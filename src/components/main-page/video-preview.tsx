@@ -1,5 +1,5 @@
 import AnimatedElement from "../animated-element";
-import VideoPlayer from "../video-player";
+import VideoPlayer from "../VideoPlayer";
 
 interface VideoProps {
   backgroundVideo: string;

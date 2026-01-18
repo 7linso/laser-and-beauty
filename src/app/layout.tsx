@@ -1,25 +1,27 @@
 import "./globals.css";
-import Header from "@/components/header";
+import Header from "@/components/Header";
 import Footer from "@/components/footer";
 import type { Metadata } from "next";
-import { Montserrat } from 'next/font/google'
+import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({
-  subsets: ['latin'],
-  weight: ['400', '600', '700'],
-  display: 'swap',
-})
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  display: "optional",
+});
 
 export const metadata: Metadata = {
   title: "Laser&Beauty By Olga",
-  description: "Professional laser beauty treatments tailored for you. Book your appointment today.",
+  description:
+    "Professional laser beauty treatments tailored for you. Book your appointment today.",
   icons: {
     icon: "https://res.cloudinary.com/dnxrobolb/image/upload/v1746543200/favicon_jpl0nh_amjjlo.png",
   },
   openGraph: {
     title: "Laser&Beauty By Olga",
-    description: "Professional laser beauty treatments tailored for you. Book your appointment today.",
-    url: "https://laserbeauty.taplink.ws/",
+    description:
+      "Professional laser beauty treatments tailored for you. Book your appointment today.",
+    url: "https://laser-and-beauty-1.onrender.com",
     type: "website",
     images: [
       {
@@ -39,14 +41,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=location_on" />
-      </head>
-      <body className={`${montserrat.className} flex flex-col min-h-screen bg-grad`}>
+      <body
+        className={`${montserrat.className} flex flex-col min-h-screen bg-grad`}
+      >
         <Header />
-        <main className="flex-grow">
-          {children}
-        </main>
+        <main className="flex-grow">{children}</main>
         <Footer />
       </body>
     </html>
