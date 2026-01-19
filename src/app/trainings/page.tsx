@@ -2,7 +2,7 @@ import VideoPlayer from "@/components/VideoPlayer";
 import Button from "@/components/button";
 import Card from "@/components/card";
 import AnimatedElement from "@/components/animated-element";
-import Gallery from "@/components/gallery";
+import Gallery from "@/components/Gallery";
 import pedicureImages from "../../data/pedicure-gallery.json";
 import manicureImages from "../../data/manicure-gallery.json";
 

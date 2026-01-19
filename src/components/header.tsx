@@ -207,12 +207,12 @@ export default function Header() {
                     </Link>
 
                     <Link
-                      href="/services/wax-hair-removal"
+                      href="/services/sugaring-and-waxing"
                       onClick={() => setServicesMobileOpen(false)}
                       className="text-sm transition"
                       role="menuitem"
                     >
-                      Wax
+                      Waxing & Sugaring
                     </Link>
 
                     <Link
@@ -222,6 +222,24 @@ export default function Header() {
                       role="menuitem"
                     >
                       Laser
+                    </Link>
+
+                    <Link
+                      href="/services/laser-treatments"
+                      onClick={() => setServicesMobileOpen(false)}
+                      className="text-sm transition"
+                      role="menuitem"
+                    >
+                      Lashes & Brows
+                    </Link>
+
+                    <Link
+                      href="/services/lashes-and-brows"
+                      onClick={() => setServicesMobileOpen(false)}
+                      className="text-sm transition"
+                      role="menuitem"
+                    >
+                      Laser Treatments
                     </Link>
                   </div>
                 )}
@@ -251,10 +269,10 @@ export default function Header() {
           onMouseLeave={scheduleClose}
         >
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-            <div style={{ left: dropdownLeft }} className="relative -ml-18">
+            <div style={{ left: dropdownLeft }} className="relative -ml-24">
               <div
                 className={[
-                  "w-40 overflow-hidden rounded-b-2xl",
+                  "w-50 overflow-hidden rounded-b-2xl",
                   "bg-teal-900/95 text-gray-100 ring-1 ring-white/10 backdrop-blur",
                   "shadow-lg",
                   "origin-top transition-all duration-200 ease-out",
@@ -276,12 +294,12 @@ export default function Header() {
                   </Link>
 
                   <Link
-                    href="/services/wax-hair-removal"
+                    href="/services/sugaring-and-waxing"
                     onClick={() => setServicesOpen(false)}
                     className="block rounded-xl px-3 py-2 text-sm transition hover:bg-white/10 hover:text-teal-200"
                     role="menuitem"
                   >
-                    Wax
+                    Waxing & Sugaring
                   </Link>
 
                   <Link
@@ -291,6 +309,24 @@ export default function Header() {
                     role="menuitem"
                   >
                     Laser
+                  </Link>
+
+                  <Link
+                    href="/services/laser-treatments"
+                    onClick={() => setServicesOpen(false)}
+                    className="block rounded-xl px-3 py-2 text-sm transition hover:bg-white/10 hover:text-teal-200"
+                    role="menuitem"
+                  >
+                    Laser Treatments
+                  </Link>
+
+                  <Link
+                    href="/services/lashes-and-brows"
+                    onClick={() => setServicesOpen(false)}
+                    className="block rounded-xl px-3 py-2 text-sm transition hover:bg-white/10 hover:text-teal-200"
+                    role="menuitem"
+                  >
+                    Lashes & Brows
                   </Link>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useCallback } from "react";
 import type { GalleryProps } from "@/lib/types";
 import Image from "next/image";
 
@@ -14,16 +14,24 @@ export default function Gallery({
   aspectRatio = "4 / 4",
 }: GalleryProps) {
   const [index, setIndex] = useState(0);
+
   const timerRef = useRef<number | null>(null);
   const hoveringRef = useRef(false);
   const touchStartX = useRef<number | null>(null);
+
   const prefersReducedMotion =
     typeof window !== "undefined" &&
     window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
 
   const goTo = (i: number) => setIndex((i + images.length) % images.length);
-  const next = () => goTo(index + 1);
-  const prev = () => goTo(index - 1);
+  
+  const next = useCallback(() => {
+    setIndex((i) => (i + 1) % images.length);
+  }, [images.length]);
+
+  const prev = useCallback(() => {
+    setIndex((i) => (i - 1 + images.length) % images.length);
+  }, [images.length]);
 
   useEffect(() => {
     if (prefersReducedMotion || images.length <= 1) return;
@@ -33,7 +41,7 @@ export default function Gallery({
     return () => {
       if (timerRef.current) window.clearTimeout(timerRef.current);
     };
-  }, [index, intervalMs, images.length, prefersReducedMotion]);
+  }, [index, intervalMs, images.length, prefersReducedMotion, next]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -42,7 +50,7 @@ export default function Gallery({
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [index]);
+  }, [index, next, prev]);
 
   const onMouseEnter = () => {
     if (!pauseOnHover) return;
