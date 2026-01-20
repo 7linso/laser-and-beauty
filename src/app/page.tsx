@@ -1,6 +1,6 @@
 import Button from "@/components/button";
 import AnimatedElement from "@/components/animated-element";
-import Hero from "@/components/main-page/hero";
+import Hero from "@/components/Hero";
 import About from "@/components/main-page/about";
 import Services from "@/components/main-page/services";
 import Offers from "@/components/main-page/offers";
@@ -20,7 +20,12 @@ export default function HomePage() {
   return (
     <>
       {/* <Promo /> */}
-      <Hero backgroundImage={backgroundImage} />
+      <Hero
+        backgroundImage={backgroundImage}
+        title="Laser&Beauty by Olga"
+        subtitle={["Laser Treatments", "Skin Rejuvenation", "Confidence"]}
+        showBook
+      />
       <About />
       <Offers />
 

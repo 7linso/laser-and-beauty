@@ -225,7 +225,7 @@ export default function Header() {
                     </Link>
 
                     <Link
-                      href="/services/laser-treatments"
+                      href="/services/lashes-and-brows"
                       onClick={() => setServicesMobileOpen(false)}
                       className="text-sm transition"
                       role="menuitem"
@@ -234,7 +234,7 @@ export default function Header() {
                     </Link>
 
                     <Link
-                      href="/services/lashes-and-brows"
+                      href="/services/laser-treatments"
                       onClick={() => setServicesMobileOpen(false)}
                       className="text-sm transition"
                       role="menuitem"

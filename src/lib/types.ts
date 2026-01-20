@@ -12,3 +12,10 @@ export type GalleryProps = {
     className?: string;
     aspectRatio?: string;         
 };
+
+export type HeroProps = {
+  backgroundImage: string;
+  title: string;
+  subtitle: string[];
+  showBook?: boolean;
+};
