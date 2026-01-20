@@ -1,8 +1,8 @@
 import team from "@/data/team.json";
-import AnimatedElement from "../animated-element";
-import Card from "../card";
+import AnimatedElement from "../AnimatedElement";
+import Card from "../Card";
 import Image from "next/image";
-import ExpandableText from "../expandable-text";
+import ExpandableText from "../ExpandableText";
 
 export default function Team() {
   return (

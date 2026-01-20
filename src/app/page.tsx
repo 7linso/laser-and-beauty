@@ -1,14 +1,14 @@
-import Button from "@/components/button";
-import AnimatedElement from "@/components/animated-element";
+import Button from "@/components/Button";
+import AnimatedElement from "@/components/AnimatedElement";
 import Hero from "@/components/Hero";
-import About from "@/components/main-page/about";
-import Services from "@/components/main-page/services";
-import Offers from "@/components/main-page/offers";
-import Reviews from "@/components/main-page/reviews";
-import Team from "@/components/main-page/team";
-import FAQSection from "@/components/faq-section";
+import About from "@/components/main-page/About";
+import Services from "@/components/main-page/Services";
+import Offers from "@/components/main-page/Offers";
+import Reviews from "@/components/main-page/Reviews";
+import Team from "@/components/main-page/Team";
+import FAQSection from "@/components/FaqSection";
 import faqs from "../data/faq-main.json";
-import VideoPreview from "@/components/main-page/video-preview";
+import VideoPreview from "@/components/main-page/VideoPreview";
 // import Promo from "@/components/main-page/promo";
 
 export default function HomePage() {

@@ -1,8 +1,8 @@
 import services from "@/data/services.json";
 import Image from "next/image";
-import Card from "@/components/card";
-import AnimatedElement from "@/components/animated-element";
-import FAQSection from "@/components/faq-section";
+import Card from "@/components/Card";
+import AnimatedElement from "@/components/AnimatedElement";
+import FAQSection from "@/components/FaqSection";
 import faqs from "../../data/faq.json";
 
 export default function ServicesPage() {

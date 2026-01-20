@@ -1,4 +1,4 @@
-import AnimatedElement from "../animated-element";
+import AnimatedElement from "../AnimatedElement";
 import VideoPlayer from "../VideoPlayer";
 
 interface VideoProps {

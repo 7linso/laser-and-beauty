@@ -1,5 +1,5 @@
-import AnimatedElement from "../animated-element";
-import Button from "../button";
+import AnimatedElement from "../AnimatedElement";
+import Button from "../Button";
 
 export default function Offers() {
   return (
@@ -12,7 +12,7 @@ export default function Offers() {
           20% OFF your First laser session or FREE underarms
         </p>
         <p className=" font-semibold p-2 text-teal-900">
-            Receive 20% OFF when you refer a friend
+          Receive 20% OFF when you refer a friend
         </p>
         <p className=" font-semibold p-2 text-teal-900">
           Get 20% OFF when you book any 3 areas
@@ -23,9 +23,9 @@ export default function Offers() {
         <p className="mb-4 p-2 font-semibold text-teal-900">
           <span className="font-bold">DIODE Laser SPECIAL: </span>
           <br></br>
-           Book 5 areas or more and pay only $50 per area
+          Book 5 areas or more and pay only $50 per area
         </p>
-        <Button buttonText="Book"/>
+        <Button buttonText="Book" />
       </AnimatedElement>
     </section>
   );

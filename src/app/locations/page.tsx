@@ -1,9 +1,9 @@
 import Link from "next/link";
 import locations from "@/data/locations.json";
 import Image from "next/image";
-import Button from "@/components/button";
-import Card from "@/components/card";
-import AnimatedElement from "@/components/animated-element";
+import Button from "@/components/Button";
+import Card from "@/components/Card";
+import AnimatedElement from "@/components/AnimatedElement";
 import { FiMapPin } from "react-icons/fi";
 
 export default function LocationsPage() {
@@ -21,7 +21,7 @@ export default function LocationsPage() {
                 <div className="md:w-2/3 flex flex-col">
                   <Link href={location.linkGoogleMaps}>
                     <h2 className="text-2xl font-semibold text-teal-800 hover:text-teal-600 underline underline-offset-4 decoration-teal-800 flex gap-1.5 items-center">
-                      <FiMapPin/>
+                      <FiMapPin />
                       {location.location}
                     </h2>
                   </Link>

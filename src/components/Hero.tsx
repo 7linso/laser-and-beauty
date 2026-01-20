@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Button from "./button";
-import AnimatedElement from "./animated-element";
+import Button from "./Button";
+import AnimatedElement from "./AnimatedElement";
 import type { HeroProps } from "@/lib/types";
 
 export default function Hero({

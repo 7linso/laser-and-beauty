@@ -1,4 +1,4 @@
-import AnimatedElement from "../animated-element";
+import AnimatedElement from "../AnimatedElement";
 
 export default function About() {
   return (
