@@ -14,6 +14,7 @@ export default function Hero({
       <div className="relative w-full lg:w-1/2 h-full">
         <Image
           priority
+          fetchPriority="high"
           fill
           src={backgroundImage}
           alt="Laser and Beauty"

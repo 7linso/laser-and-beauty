@@ -7,7 +7,7 @@ export const IPLSkinRejData: ServicesPageTemplateProps = {
   desc2:
     "The light energy is absorbed by areas of excess pigment and visible blood vessels beneath the skin. This process helps to fade sun damage and age spots, reduce redness and broken capillaries, and create a more even skin tone. At the same time, IPL gently stimulates collagen production, supporting smoother and healthier-looking skin.",
   desc3:
-    "Over the following days and weeks, pigmentation gradually lightens, redness diminishes, and the skin appears clearer and more balanced. IPL treatments are quick and comfortable, require little to no downtime, and are an excellent option for improving signs of sun exposure and photoaging while maintaining a natural, refreshed appearance.",
+    "Over the following days and weeks, pigmentation gradually lightens, redness diminishes, and the skin appears clearer and more balanced. IPL treatments are quick and comfortable, require little to no downtime, and are an excellent option for improving signs of sun exposure and photoaging while maintaining a natural, refreshed appearance. Because IPL targets pigment in the skin, suitability depends on skin tone, and a professional consultation is required to determine if this treatment is appropriate.",
   benefits: [
     "Less redness and discoloration",
     "Clearer skin tone",
