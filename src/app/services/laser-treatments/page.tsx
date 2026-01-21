@@ -3,8 +3,9 @@ import Card from "@/components/Card";
 import FAQSection from "@/components/FaqSection";
 import faqs from "../../../data/faq.json";
 import Hero from "@/components/Hero";
-import DiodeSkinRej from "@/components/laser-treatments/DiodeSkinRej";
-import IPLSkinRej from "@/components/laser-treatments/IPLSkinRej";
+import { IPLSkinRejData } from "@/data/services/IPLSkinRej";
+import { DiodeSkinRejData } from "@/data/services/DiodeSkinRej";
+import ServicesPageTemplate from "@/components/ServicesPageTemplate";
 
 export default function LaserTreatmentsPage() {
   const backgroundImage =
@@ -18,13 +19,29 @@ export default function LaserTreatmentsPage() {
         subtitle={["Skin Rejuvenation", "Diode", "IPL"]}
       />
 
-      <DiodeSkinRej />
+      <ServicesPageTemplate
+        title={IPLSkinRejData.title}
+        desc1={IPLSkinRejData.desc1}
+        desc2={IPLSkinRejData.desc2}
+        desc3={IPLSkinRejData.desc3}
+        benefits={IPLSkinRejData.benefits}
+        steps={IPLSkinRejData.steps}
+        reasons={IPLSkinRejData.reasons}
+      />
 
-      <IPLSkinRej />
+       <ServicesPageTemplate
+        title={DiodeSkinRejData.title}
+        desc1={DiodeSkinRejData.desc1}
+        desc2={DiodeSkinRejData.desc2}
+        desc3={DiodeSkinRejData.desc3}
+        benefits={DiodeSkinRejData.benefits}
+        steps={DiodeSkinRejData.steps}
+        reasons={DiodeSkinRejData.reasons}
+      />
 
-      <section className="px-4 pt-6">
+      <section className="px-4 py-16 bg-teal-900">
         <div className="max-w-5xl mx-auto ">
-          <h1 className="text-4xl font-bold text-teal-900 mb-10 ">
+          <h1 className="text-4xl font-bold text-teal-50 mb-10 ">
             Important Note!
           </h1>
           <AnimatedElement>
