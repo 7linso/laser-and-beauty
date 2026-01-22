@@ -31,7 +31,7 @@ export default function Footer() {
   const servicesItems = [
     { href: "/services/manicure-pedicure", label: "Nails Care" },
     { href: "/services/sugaring-and-waxing", label: "Waxing & Sugaring" },
-    { href: "/services/laser-hair-removal", label: "Laser" },
+    { href: "/services/laser-hair-removal", label: "Laser Hair Removal" },
     { href: "/services/laser-treatments", label: "Laser Treatments" },
     { href: "/services/lashes-and-brows", label: "Lashes & Brows" },
   ];

@@ -221,7 +221,7 @@ export default function Header() {
                       className="text-sm transition"
                       role="menuitem"
                     >
-                      Laser
+                      Laser Hair Removal
                     </Link>
 
                     <Link
@@ -308,7 +308,7 @@ export default function Header() {
                     className="block rounded-xl px-3 py-2 text-sm transition hover:bg-white/10 hover:text-teal-200"
                     role="menuitem"
                   >
-                    Laser
+                    Laser Hair Removal
                   </Link>
 
                   <Link

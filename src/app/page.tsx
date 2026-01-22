@@ -2,7 +2,7 @@ import Button from "@/components/Button";
 import AnimatedElement from "@/components/AnimatedElement";
 import Hero from "@/components/Hero";
 import About from "@/components/main-page/About";
-import Services from "@/components/main-page/Services";
+// import Services from "@/components/main-page/Services";
 import Offers from "@/components/main-page/Offers";
 import Reviews from "@/components/main-page/Reviews";
 import Team from "@/components/main-page/Team";
@@ -35,7 +35,8 @@ export default function HomePage() {
         points={["Fast", "Effective", "Safe"]}
       />
 
-      <Services />
+      <Team />
+      {/* <Services /> */}
 
       <VideoPreview
         backgroundVideo={backgroundVideo}
@@ -44,7 +45,6 @@ export default function HomePage() {
         points={["Comfort", "Confidence", "Satisfaction"]}
       />
 
-      <Team />
       <Reviews />
       <div className="py-20 px-10">
         <h2 className="text-4xl font-semibold text-teal-900 mb-6 text-center">

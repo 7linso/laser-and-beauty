@@ -29,3 +29,10 @@ export type ServicesPageTemplateProps = {
   steps: string[];
   reasons: string[];
 };
+
+export type ServicesPageTemplateSmallProps = {
+  title: string;
+  desc1: string;
+  desc2: string;
+  benefits: string[];
+};
