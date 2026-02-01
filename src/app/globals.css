@@ -68,7 +68,11 @@ html {
 }
 
 .material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
 }
 
 .scrollbar-styled {
@@ -97,7 +101,9 @@ html {
   max-height: 0;
   overflow: hidden;
   padding-bottom: 0;
-  transition: max-height 0.4s ease, padding-bottom 0.4s ease;
+  transition:
+    max-height 0.4s ease,
+    padding-bottom 0.4s ease;
 }
 
 .faq-answer.open {
@@ -108,7 +114,9 @@ html {
 .expandable-text {
   max-height: 140px;
   overflow: hidden;
-  transition: max-height 0.5s ease, padding 0.5s ease;
+  transition:
+    max-height 0.5s ease,
+    padding 0.5s ease;
   padding-bottom: 0;
 }
 
@@ -135,4 +143,12 @@ html {
   .promo-track {
     animation: none;
   }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

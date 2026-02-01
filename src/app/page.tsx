@@ -9,7 +9,7 @@ import Team from "@/components/main-page/Team";
 import FAQSection from "@/components/FaqSection";
 import faqs from "../data/faq-main.json";
 import VideoPreview from "@/components/main-page/VideoPreview";
-// import Promo from "@/components/main-page/promo";
+import Promo from "@/components/main-page/Promo";
 
 export default function HomePage() {
   const backgroundImage =
@@ -17,9 +17,12 @@ export default function HomePage() {
 
   const backgroundVideo =
     "https://res.cloudinary.com/dqvthdtuu/video/upload/v1760449661/IMG_3544_sn22g3.mov";
+
+  const splendorBackgroundVideo =
+    "https://res.cloudinary.com/dqvthdtuu/video/upload/v1769656197/splendor_qb76ts.mov";
   return (
     <>
-      {/* <Promo /> */}
+      <Promo />
       <Hero
         backgroundImage={backgroundImage}
         title="Laser&Beauty by Olga"
@@ -30,7 +33,7 @@ export default function HomePage() {
       <Offers />
 
       <VideoPreview
-        backgroundVideo={backgroundVideo}
+        backgroundVideo={splendorBackgroundVideo}
         text="New! Splendor X with BLEND X technology, it combines Alexandrite and Nd:YAG wavelengths for the best results on all skin types."
         points={["Fast", "Effective", "Safe"]}
       />

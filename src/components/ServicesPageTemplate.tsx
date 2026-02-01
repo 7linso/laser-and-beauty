@@ -11,11 +11,11 @@ export default function ServicesPageTemplate({
 }: ServicesPageTemplateProps) {
   return (
     <div>
-      <section className="px-4 bg-teal-900">
+      <section className="px-4 bg-teal-900 text-teal-50 ">
         <div className="max-w-5xl mx-auto py-20 text-center">
-          <h2 className="text-4xl font-semibold mb-6 text-teal-50">{title}</h2>
+          <h2 className="text-4xl font-semibold mb-6">{title}</h2>
 
-          <div className="text-teal-50 space-y-4">
+          <div className="space-y-4">
             <p>{desc1}</p>
             <p>{desc2}</p>
             <p>{desc3}</p>
@@ -23,9 +23,9 @@ export default function ServicesPageTemplate({
         </div>
       </section>
 
-      <section className="px-4">
+      <section className="px-4 text-teal-950 sm:text-teal-50 ">
         <div className="max-w-5xl mx-auto py-20 px-6">
-          <h3 className="text-4xl font-semibold mb-10 text-center text-teal-50">
+          <h3 className="text-4xl font-semibold mb-10 text-center ">
             What you will notice
           </h3>
 
@@ -33,7 +33,7 @@ export default function ServicesPageTemplate({
             {benefits.map((item) => (
               <li
                 key={item}
-                className="backdrop-blur-md bg-white/20 border border-white/10 rounded-lg py-16 text-teal-50 text-xl text-center font-semibold transition hover:bg-white/30"
+                className="backdrop-blur-md bg-white/20 border border-white/10 rounded-lg py-16 text-xl text-center font-semibold transition hover:bg-white/30"
               >
                 {item}
               </li>
@@ -42,13 +42,13 @@ export default function ServicesPageTemplate({
         </div>
       </section>
 
-      <section className="px-4 bg-teal-900">
+      <section className="px-4 bg-teal-900 text-teal-50">
         <div className="max-w-5xl mx-auto py-20 text-center">
           <h3 className="text-4xl mb-10 text-center font-bold text-teal-50">
             What the procedure looks like
           </h3>
 
-          <ol className="text-teal-50 font-semibold space-y-4 list-decimal list-inside text-lg">
+          <ol className=" font-semibold space-y-4 list-decimal list-inside text-lg">
             {steps.map((s) => (
               <li key={s}>{s}</li>
             ))}
@@ -56,9 +56,9 @@ export default function ServicesPageTemplate({
         </div>
       </section>
 
-      <section className="px-4">
+      <section className="px-4 text-teal-950 sm:text-teal-50 ">
         <div className="max-w-5xl mx-auto py-20 px-6">
-          <h3 className="text-4xl font-semibold mb-10 text-center text-teal-50">
+          <h3 className="text-4xl font-semibold mb-10 text-center ">
             You will benefit best if you experience
           </h3>
 
@@ -66,7 +66,7 @@ export default function ServicesPageTemplate({
             {reasons.map((item) => (
               <li
                 key={item}
-                className="backdrop-blur-md bg-white/20 border border-white/10 rounded-lg py-16 text-teal-50 text-xl text-center font-semibold transition hover:bg-white/30"
+                className="backdrop-blur-md bg-white/20 border border-white/10 rounded-lg py-16 text-xl text-center font-semibold transition hover:bg-white/30"
               >
                 {item}
               </li>
