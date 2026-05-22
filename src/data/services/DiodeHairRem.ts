@@ -28,4 +28,6 @@ export const DiodeLaserHairRemovalData: ServicesPageTemplateProps = {
     "Ingrown hairs",
     "Desire for long-term hair reduction",
   ],
+  prep: ["Shave area", "Exfoliate ", "Avoid Sun", "Don't overmoisturize"],
+
 };

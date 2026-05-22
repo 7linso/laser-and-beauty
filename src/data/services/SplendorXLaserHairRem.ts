@@ -28,4 +28,6 @@ export const SplendorXLaserHairRemovalData: ServicesPageTemplateProps = {
     "Desire for advanced, customizable laser technology",
     "Long-term hair reduction with enhanced safety",
   ],
+  prep: ["Shave 2 days prior", "Exfoliate ", "Avoid Sun", "Don't overmoisturize"],
+
 };

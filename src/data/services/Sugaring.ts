@@ -26,4 +26,5 @@ export const SugaringData: ServicesPageTemplateProps = {
     "Hair breakage with other methods",
     "Preference for natural treatments",
   ],
+  prep: ["Grow hair", "Exfoliate ", "Avoid Sun", "Don't overmoisturize"],
 };

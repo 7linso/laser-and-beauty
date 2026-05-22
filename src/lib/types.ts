@@ -28,6 +28,7 @@ export type ServicesPageTemplateProps = {
   benefits: string[];
   steps: string[];
   reasons: string[];
+  prep: string[]
 };
 
 export type ServicesPageTemplateSmallProps = {

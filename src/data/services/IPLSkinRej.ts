@@ -28,4 +28,5 @@ export const IPLSkinRejData: ServicesPageTemplateProps = {
     "Uneven skin tone",
     "Signs of photoaging",
   ],
+  prep: ["Remove makeup", "Exfoliate ", "Avoid Sun", "Don't overmoisturize"],
 };

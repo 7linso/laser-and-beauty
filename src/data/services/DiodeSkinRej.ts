@@ -27,4 +27,6 @@ export const DiodeSkinRejData: ServicesPageTemplateProps = {
     "Dull or tired-looking skin",
     "Or looking for just better skin",
   ],
+  prep: ["Remove makeup", "Exfoliate ", "Avoid Sun", "Don't overmoisturize"],
+
 };

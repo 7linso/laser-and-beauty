@@ -1,216 +1,259 @@
 [
-    {
-        "question": "How many treatments do I need for laser hair removal?",
-        "answer": [
-            "The number of treatments varies depending on the area being treated, your hair type, and individual hair growth cycles. Most clients need between 8 and 12 sessions for the best results, spaced about 4 to 6 weeks apart. Some areas or hair types may require occasional maintenance treatments.",
-            "Not to mention, laser treatments are most effective on dark hair, so we cannot guarantee satisfying results for gray or blonde hair.",
-            "After completing the full course, we usually recommend one maintenance (touch-up) session per year to keep your skin smooth and prevent new hair growth."
-        ]
-    },
-    {
-        "question": "How to Prepare for Laser Hair Removal session?",
-        "answer": [
-            "1. Shave the area one day prior to treatment.",
-            "To ensure the most effective and efficient session, please shave the treatment area using your preferred method and shaving products the day before your appointment. This helps prevent irritation and allows the laser to target the hair follicles directly, not surface hair. Arriving already shaved also helps us make the most of your appointment time, so we can focus entirely on the procedure itself.",
-            "2. Remove make up before the procedure",
-            "If you’ve booked a facial laser hair removal session, please arrive without any makeup on. This ensures your skin is clean and ready for treatment. It's best to remove cosmetics at home using your own skincare products that are compatible with your skin type, helping to avoid any irritation.",
-            "3. Avoid Sun Exposure",
-            "Do not tan or expose your skin to direct sunlight for at least 2 weeks before the treatment. Use SPF 30+ daily.",
-            "4. No waxing, threading, tweezing or use of any chemical depilatories or bleach the area before and while undergoing the laser hair removal sessions.",
-            "5. Avoid Using Active Skincare Products and Perfumes",
-            "Discontinue retinoids, glycolic acid, salicylic acid, and other exfoliating or irritating products 3–5 days before treatment. Also we recommend not to use any perfume, lotion or cologne on the treatment area prior to procedure."
-        ]
-    },
-    {
-        "question": "What Not to Do After Laser Hair Removal?",
-        "answer": [
-            "1. No Sun Exposure",
-            "Avoid direct sunlight and tanning beds for 1-2 days. Always wear SPF 30+ when going outside.",
-            "2. No Hot Showers, Saunas, or Intense Workouts",
-            "Refrain from heat, steam, or sweating for 24–48 hours after treatment.",
-            "3. No Harsh Skincare Products",
-            "Avoid retinoids, acids (like AHA/BHA), exfoliants, or scrubs for 5–7 days. Also, avoid using deodorants, perfumes, perfumed lotion, cologne or any cream that may irritate the treatment area for 1–2 days.",
-            "4. Do Not Pick or Scratch the Skin",
-            "If dark spots or flaking occur, let them naturally shed. Do not peel or touch."
-        ]
-    },
-    {
-        "question": "How many treatments do I need for Diode Skin Rejuvenation?",
-        "answer": [
-            "For best results, we recommend a course of 5–8 sessions depending on individual skin concerns. Treatments are performed every 7–10 days, which allows the skin to gradually renew and improve.",
-            "After completing the full course, we usually recommend one maintenance (touch-up) session per year to keep your skin smooth and prevent new hair growth."
-        ]
-    },
-    {
-        "question": "How to Prepare for IPL Skin Rejuvenation?",
-        "answer": [
-            "1. Avoid Sun Exposure",
-            "Do not tan or expose your skin to direct sunlight for at least 2 weeks before the treatment. Use SPF 30+ daily.",
-            "2. Stop Using Active Skincare Products",
-            "Discontinue retinoids, glycolic acid, salicylic acid, and other exfoliating or irritating products 3–5 days before treatment.",
-            "3. Do Not Wax or Use Depilatory Creams",
-            "Avoid waxing, tweezing, or using hair removal creams on the treatment area for 1–2 weeks prior.",
-            "4. Avoid Certain Medications",
-            "Refrain from using photosensitizing medications such as antibiotics (e.g., tetracyclines) — consult your doctor first.",
-            "5. Come with Clean Skin",
-            "On the day of your appointment, arrive with clean, makeup-free, lotion-free, and product-free skin."
-        ]
-    },
-    {
-        "question": "What Not to Do After IPL Skin Rejuvenation?",
-        "answer": [
-            "1. No Sun Exposure",
-            "Avoid direct sunlight and tanning beds for at least 2 weeks. Always wear SPF 30+ when going outside.",
-            "2. No Hot Showers, Saunas, or Intense Workouts",
-            "Refrain from heat, steam, or sweating for 24–48 hours after treatment.",
-            "3. No Harsh Skincare Products",
-            "Avoid retinoids, acids (like AHA/BHA), exfoliants, or scrubs for 5–7 days.",
-            "4. Do Not Pick or Scratch the Skin",
-            "If dark spots or flaking occur, let them naturally shed. Do not peel or touch.",
-            "5. No Makeup (Initially)",
-            "Avoid makeup on the treated area for at least 24 hours, or until any redness or sensitivity subsides."
-        ]
-    },
-    {
-        "question": "Post IPL Skin Rejuvenation Care Tips",
-        "answer": [
-            "1. Use Gentle Skincare",
-            "Cleanse with a mild cleanser and keep the skin hydrated using a soothing, fragrance-free moisturizer.",
-            "2. Apply SPF Daily",
-            "Protect your skin with broad-spectrum sunscreen (SPF 30 or higher) every day, even indoors.",
-            "3. Stay Cool",
-            "Apply cool compresses if needed to reduce redness or warmth in the skin.",
-            "4. Be Patient with Results",
-            "Pigmentation or spots may darken before flaking off — this is normal. Full results may take several sessions.",
-            "5. Follow Professional Instructions",
-            "Adhere to all aftercare advice given by your technician for best results and safety."
-        ]
-    },
-    {
-        "question": "How to Prepare for Diode Skin Rejuvenation?",
-        "answer": [
-            "1. Avoid Sun Exposure",
-            "Do not tan or expose your skin to direct sunlight for at least 2 weeks before the treatment. Use SPF 30+ daily.",
-            "2. Stop Using Active Skincare Products",
-            "Discontinue retinoids, glycolic acid, salicylic acid, and other exfoliating or irritating products 3–5 days before treatment.",
-            "3. Do Not Wax or Use Depilatory Creams",
-            "Avoid waxing, tweezing, or using hair removal creams on the treatment area for 1–2 weeks prior.",
-            "4. Avoid Certain Medications",
-            "Refrain from using photosensitizing medications such as antibiotics (e.g., tetracyclines) — consult your doctor first.",
-            "5. Come with Clean Skin",
-            "On the day of your appointment, arrive with clean, makeup-free, lotion-free, and product-free skin."
-        ]
-    },
-    {
-        "question": "What Not to Do After IPL Skin Rejuvenation?",
-        "answer": [
-            "1. No Sun Exposure",
-            "Avoid direct sunlight and tanning beds for at least 2 weeks. Always wear SPF 30+ when going outside.",
-            "2. No Hot Showers, Saunas, or Intense Workouts",
-            "Refrain from heat, steam, or sweating for 24–48 hours after treatment.",
-            "3. No Harsh Skincare Products",
-            "Avoid retinoids, acids (like AHA/BHA), exfoliants, or scrubs for 5–7 days.",
-            "4. Do Not Pick or Scratch the Skin",
-            "If dark spots or flaking occur, let them naturally shed. Do not peel or touch.",
-            "5. No Makeup (Initially)",
-            "Avoid makeup on the treated area for at least 24 hours, or until any redness or sensitivity subsides."
-        ]
-    },
-    {
-        "question": "Post IPL Skin Rejuvenation Care Tips",
-        "answer": [
-            "1. Use Gentle Skincare",
-            "Cleanse with a mild cleanser and keep the skin hydrated using a soothing, fragrance-free moisturizer.",
-            "2. Apply SPF Daily",
-            "Protect your skin with broad-spectrum sunscreen (SPF 30 or higher) every day, even indoors.",
-            "3. Stay Cool",
-            "Apply cool compresses if needed to reduce redness or warmth in the skin.",
-            "4. Be Patient with Results",
-            "Pigmentation or spots may darken before flaking off — this is normal. Full results may take several sessions.",
-            "5. Follow Professional Instructions",
-            "Adhere to all aftercare advice given by your technician for best results and safety."
-        ]
-    },
-    {
-        "question": "How to Prepare for Waxing?",
-        "answer": [
-            "1. Let Hair Grow",
-            "Ensure hair is at least 1/4 inch (about 6 mm) long for effective waxing — usually about 2–3 weeks of growth.",
-            "2. Gently Exfoliate the Area",
-            "Exfoliate 24–48 hours before your appointment to remove dead skin and help prevent ingrown hairs.",
-            "3. Avoid Moisturizers or Oils",
-            "Do not apply lotion, oils, or creams on the day of your waxing session, as they can interfere with wax adhesion.",
-            "4. Avoid Sun Exposure & Tanning",
-            "Stay out of the sun and tanning beds for at least 24 hours before your wax to prevent extra sensitivity.",
-            "5. Take a Mild Pain Reliever (Optional)",
-            "You may take an over-the-counter pain reliever 30–60 minutes before your appointment if you’re sensitive to pain."
-        ]
-    },
-    {
-        "question": "What Not to Do After Waxing?",
-        "answer": [
-            "1. No Sun or Tanning",
-            "Avoid direct sun exposure, tanning beds, or hot weather for 24–48 hours.",
-            "2. No Heat or Friction",
-            "Skip hot baths, saunas, steam rooms, and intense workouts for at least 24 hours.",
-            "3. No Tight Clothing",
-            "Avoid tight jeans, leggings, or underwear that may rub against the freshly waxed area.",
-            "4. No Touching or Scratching",
-            "Keep hands off the treated area to prevent irritation or infection.",
-            "5. No Perfumed or Harsh Products",
-            "Avoid deodorants (for underarm waxing), body sprays, lotions with alcohol, or exfoliants for 24–48 hours."
-        ]
-    },
-    {
-        "question": "Post-Wax Care Tips",
-        "answer": [
-            "1. Use Soothing Products",
-            "Apply aloe vera gel or a calamine lotion to reduce redness and soothe the skin.",
-            "2. Exfoliate Gently (After 48–72 Hours)",
-            "Start gentle exfoliation a few days post-wax to prevent ingrown hairs.",
-            "3. Keep the Area Clean & Dry",
-            "Especially for bikini or underarm areas, maintain hygiene to prevent irritation."
-        ]
-    },
-    {
-        "question": "How to Prepare for Sugaring?",
-        "answer": [
-            "1. Let Hair Grow",
-            "Hair should be at least 1/8 to 1/4 inch long (about 3–6 mm) — usually 10–14 days of growth.",
-            "2. Gently Exfoliate",
-            "Exfoliate the area 24–48 hours before your appointment to help remove dead skin and reduce the chance of ingrown hairs.",
-            "3. Avoid Creams, Oils, or Lotions",
-            "Do not apply anything on the skin (no moisturizers, oils, or deodorants) on the day of your appointment.",
-            "4. Avoid Sun Exposure or Tanning",
-            "Stay out of direct sunlight and tanning beds for 24–48 hours before sugaring to prevent irritation.",
-            "5. Limit Caffeine or Alcohol",
-            "Avoid coffee or alcohol right before your appointment, as they can increase skin sensitivity."
-        ]
-    },
-    {
-        "question": "What Not to Do After Sugaring?",
-        "answer": [
-            "1. No Heat or Sweat",
-            "Avoid hot showers, baths, saunas, steam rooms, and heavy workouts for at least 24 hours.",
-            "2. No Sun or Tanning",
-            "Avoid direct sun exposure and tanning beds for 48 hours after sugaring.",
-            "3. No Tight Clothing",
-            "Wear loose clothing to allow the skin to breathe and avoid friction.",
-            "4. No Scratching or Touching",
-            "Do not touch or scratch the treated area — it can cause irritation or infection.",
-            "5. No Scented Products or Exfoliation (Yet)",
-            "Avoid perfumes, deodorants (for underarms), and exfoliating products for 24–48 hours after the procedure."
-        ]
-    },
-    {
-        "question": "Post-Sugaring Care Tips",
-        "answer": [
-            "1. Apply Soothing Products",
-            "Use aloe vera or a gentle, fragrance-free moisturizer or calamine lotion to calm the skin.",
-            "2. Start Gentle Exfoliation After 48–72 Hours",
-            "Begin exfoliating 2–3 times per week to prevent ingrown hairs and maintain smooth skin.",
-            "3. Keep Skin Clean & Dry",
-            "Especially for bikini or underarm areas — maintain hygiene and avoid tight or sweaty environments."
-        ]
-    }
+  {
+    "question": "How many treatments do I need for laser hair removal?",
+    "answer": [
+      "The number of treatments varies depending on the area being treated, your hair type, and individual hair growth cycles. Most clients need between 8 and 12 sessions for the best results, spaced about 4 to 6 weeks apart. Some areas or hair types may require occasional maintenance treatments.",
+      "Not to mention, laser treatments are most effective on dark hair, so we cannot guarantee satisfying results for gray or blonde hair.",
+      "After completing the full course, we usually recommend one maintenance (touch-up) session per year to keep your skin smooth and prevent new hair growth."
+    ]
+  },
+  {
+    "question": "How to Prepare for Laser Hair Removal session?",
+    "answer": [
+      "1. Shave the area one day prior to treatment.",
+      "To ensure the most effective and efficient session, please shave the treatment area using your preferred method and shaving products the day before your appointment. This helps prevent irritation and allows the laser to target the hair follicles directly, not surface hair. Arriving already shaved also helps us make the most of your appointment time, so we can focus entirely on the procedure itself.",
+      "2. Remove make up before the procedure",
+      "If you’ve booked a facial laser hair removal session, please arrive without any makeup on. This ensures your skin is clean and ready for treatment. It's best to remove cosmetics at home using your own skincare products that are compatible with your skin type, helping to avoid any irritation.",
+      "3. Avoid Sun Exposure",
+      "Do not tan or expose your skin to direct sunlight for at least 2 weeks before the treatment. Use SPF 30+ daily.",
+      "4. No waxing, threading, tweezing or use of any chemical depilatories or bleach the area before and while undergoing the laser hair removal sessions.",
+      "5. Avoid Using Active Skincare Products and Perfumes",
+      "Discontinue retinoids, glycolic acid, salicylic acid, and other exfoliating or irritating products 3–5 days before treatment. Also we recommend not to use any perfume, lotion or cologne on the treatment area prior to procedure."
+    ]
+  },
+  {
+    "question": "What Not to Do After Laser Hair Removal?",
+    "answer": [
+      "1. No Sun Exposure",
+      "Avoid direct sunlight and tanning beds for 1-2 days. Always wear SPF 30+ when going outside.",
+      "2. No Hot Showers, Saunas, or Intense Workouts",
+      "Refrain from heat, steam, or sweating for 24–48 hours after treatment.",
+      "3. No Harsh Skincare Products",
+      "Avoid retinoids, acids (like AHA/BHA), exfoliants, or scrubs for 5–7 days. Also, avoid using deodorants, perfumes, perfumed lotion, cologne or any cream that may irritate the treatment area for 1–2 days.",
+      "4. Do Not Pick or Scratch the Skin",
+      "If dark spots or flaking occur, let them naturally shed. Do not peel or touch."
+    ]
+  },
+  {
+    "question": "How many treatments do I need for Alexandrite & Nd:YAG Laser Hair Removal with Splendor X?",
+    "answer": [
+      "The number of treatments varies depending on the treatment area, your hair type, skin type, hair density, and individual hair growth cycle. Most clients need between 8 and 12 sessions for the best results, spaced about 4 to 6 weeks apart.",
+      "Splendor X uses a combination of Alexandrite and Nd:YAG laser technologies, which allows treatment to be adjusted for different skin types and hair types. However, laser hair removal works best on darker hair because the laser targets pigment in the hair follicle.",
+      "Gray, white, very light blonde, or some red hair may not respond well because there may not be enough pigment for the laser to target effectively.",
+      "After completing the full treatment course, we usually recommend occasional maintenance sessions, often around once per year, to help maintain smooth results and reduce new hair growth."
+    ]
+  },
+  {
+    "question": "How to Prepare for Alexandrite & Nd:YAG Laser Hair Removal with Splendor X?",
+    "answer": [
+      "1. Shave the area one day before treatment.",
+      "Please shave the treatment area 24 hours before your appointment using your preferred shaving method. This helps the laser focus on the hair follicle beneath the skin instead of surface hair. Arriving already shaved also allows us to use your appointment time more efficiently.",
+      "2. Arrive with clean skin.",
+      "The treatment area should be clean and free from makeup, lotion, oils, deodorant, perfume, cologne, or any other products. If you are treating the face, please remove makeup at home before your appointment using products suitable for your skin type.",
+      "3. Avoid sun exposure and tanning.",
+      "Avoid direct sun exposure, tanning beds, and self-tanning products for at least 2 weeks before your session. Use SPF 30+ daily on exposed areas. Tanned or sunburned skin can increase the risk of irritation, burns, or pigmentation changes.",
+      "4. Do not wax, thread, tweeze, sugar, bleach, or use chemical depilatories.",
+      "Avoid removing the hair from the root before and during your laser hair removal course. The laser needs the hair follicle to be present in order to treat it effectively. Shaving is allowed and recommended.",
+      "5. Avoid active skincare products.",
+      "Discontinue retinoids, glycolic acid, salicylic acid, AHA/BHA products, exfoliating scrubs, and other irritating skincare products 3–5 days before treatment on the area being treated.",
+      "6. Inform us about medications and skin conditions.",
+      "Please let us know if you are taking photosensitizing medications, antibiotics, acne medications such as isotretinoin, or if you have a history of cold sores, keloid scarring, pigmentation issues, recent sunburn, rash, or skin irritation in the treatment area."
+    ]
+  },
+  {
+    "question": "What Not to Do After Alexandrite & Nd:YAG Laser Hair Removal with Splendor X?",
+    "answer": [
+      "1. Avoid sun exposure.",
+      "Avoid direct sun exposure and tanning beds after your treatment. Use SPF 30+ daily on exposed areas to help protect the skin and reduce the risk of pigmentation changes.",
+      "2. Avoid heat, steam, and heavy sweating.",
+      "Do not use hot showers, saunas, steam rooms, hot tubs, or do intense workouts for 24–48 hours after treatment. Heat and sweating can increase irritation in the treated area.",
+      "3. Avoid harsh skincare products.",
+      "Do not use retinoids, AHA/BHA acids, glycolic acid, salicylic acid, exfoliants, scrubs, or strong active skincare products on the treated area for 5–7 days, or until the skin feels fully calm.",
+      "4. Avoid fragranced products.",
+      "Avoid deodorants, perfumes, cologne, perfumed lotions, and irritating creams on the treated area for 1–2 days after treatment, especially if the skin feels sensitive.",
+      "5. Do not pick, scratch, or exfoliate the area.",
+      "Some redness, warmth, mild swelling, or small bumps around the hair follicles can be normal after treatment. Do not scratch, pick, peel, or scrub the area. Let any shedding or flaking happen naturally.",
+      "6. Do not wax, tweeze, thread, or use chemical depilatories between sessions.",
+      "Hair may appear to grow or shed after treatment, which is normal. You may shave between sessions, but do not remove the hair from the root because it can reduce the effectiveness of future treatments."
+    ]
+  },
+  {
+    "question": "How many treatments do I need for Diode Skin Rejuvenation?",
+    "answer": [
+      "For best results, we recommend a course of 5–8 sessions depending on individual skin concerns. Treatments are performed every 7–10 days, which allows the skin to gradually renew and improve.",
+      "After completing the full course, we usually recommend one maintenance (touch-up) session per year to keep your skin smooth and prevent new hair growth."
+    ]
+  },
+  {
+    "question": "How to Prepare for IPL Skin Rejuvenation?",
+    "answer": [
+      "1. Avoid Sun Exposure",
+      "Do not tan or expose your skin to direct sunlight for at least 2 weeks before the treatment. Use SPF 30+ daily.",
+      "2. Stop Using Active Skincare Products",
+      "Discontinue retinoids, glycolic acid, salicylic acid, and other exfoliating or irritating products 3–5 days before treatment.",
+      "3. Do Not Wax or Use Depilatory Creams",
+      "Avoid waxing, tweezing, or using hair removal creams on the treatment area for 1–2 weeks prior.",
+      "4. Avoid Certain Medications",
+      "Refrain from using photosensitizing medications such as antibiotics (e.g., tetracyclines) — consult your doctor first.",
+      "5. Come with Clean Skin",
+      "On the day of your appointment, arrive with clean, makeup-free, lotion-free, and product-free skin."
+    ]
+  },
+  {
+    "question": "What Not to Do After IPL Skin Rejuvenation?",
+    "answer": [
+      "1. No Sun Exposure",
+      "Avoid direct sunlight and tanning beds for at least 2 weeks. Always wear SPF 30+ when going outside.",
+      "2. No Hot Showers, Saunas, or Intense Workouts",
+      "Refrain from heat, steam, or sweating for 24–48 hours after treatment.",
+      "3. No Harsh Skincare Products",
+      "Avoid retinoids, acids (like AHA/BHA), exfoliants, or scrubs for 5–7 days.",
+      "4. Do Not Pick or Scratch the Skin",
+      "If dark spots or flaking occur, let them naturally shed. Do not peel or touch.",
+      "5. No Makeup (Initially)",
+      "Avoid makeup on the treated area for at least 24 hours, or until any redness or sensitivity subsides."
+    ]
+  },
+  {
+    "question": "Post IPL Skin Rejuvenation Care Tips",
+    "answer": [
+      "1. Use Gentle Skincare",
+      "Cleanse with a mild cleanser and keep the skin hydrated using a soothing, fragrance-free moisturizer.",
+      "2. Apply SPF Daily",
+      "Protect your skin with broad-spectrum sunscreen (SPF 30 or higher) every day, even indoors.",
+      "3. Stay Cool",
+      "Apply cool compresses if needed to reduce redness or warmth in the skin.",
+      "4. Be Patient with Results",
+      "Pigmentation or spots may darken before flaking off — this is normal. Full results may take several sessions.",
+      "5. Follow Professional Instructions",
+      "Adhere to all aftercare advice given by your technician for best results and safety."
+    ]
+  },
+  {
+    "question": "How to Prepare for Diode Skin Rejuvenation?",
+    "answer": [
+      "1. Avoid Sun Exposure",
+      "Do not tan or expose your skin to direct sunlight for at least 2 weeks before the treatment. Use SPF 30+ daily.",
+      "2. Stop Using Active Skincare Products",
+      "Discontinue retinoids, glycolic acid, salicylic acid, and other exfoliating or irritating products 3–5 days before treatment.",
+      "3. Do Not Wax or Use Depilatory Creams",
+      "Avoid waxing, tweezing, or using hair removal creams on the treatment area for 1–2 weeks prior.",
+      "4. Avoid Certain Medications",
+      "Refrain from using photosensitizing medications such as antibiotics (e.g., tetracyclines) — consult your doctor first.",
+      "5. Come with Clean Skin",
+      "On the day of your appointment, arrive with clean, makeup-free, lotion-free, and product-free skin."
+    ]
+  },
+  {
+    "question": "What Not to Do After IPL Skin Rejuvenation?",
+    "answer": [
+      "1. No Sun Exposure",
+      "Avoid direct sunlight and tanning beds for at least 2 weeks. Always wear SPF 30+ when going outside.",
+      "2. No Hot Showers, Saunas, or Intense Workouts",
+      "Refrain from heat, steam, or sweating for 24–48 hours after treatment.",
+      "3. No Harsh Skincare Products",
+      "Avoid retinoids, acids (like AHA/BHA), exfoliants, or scrubs for 5–7 days.",
+      "4. Do Not Pick or Scratch the Skin",
+      "If dark spots or flaking occur, let them naturally shed. Do not peel or touch.",
+      "5. No Makeup (Initially)",
+      "Avoid makeup on the treated area for at least 24 hours, or until any redness or sensitivity subsides."
+    ]
+  },
+  {
+    "question": "Post IPL Skin Rejuvenation Care Tips",
+    "answer": [
+      "1. Use Gentle Skincare",
+      "Cleanse with a mild cleanser and keep the skin hydrated using a soothing, fragrance-free moisturizer.",
+      "2. Apply SPF Daily",
+      "Protect your skin with broad-spectrum sunscreen (SPF 30 or higher) every day, even indoors.",
+      "3. Stay Cool",
+      "Apply cool compresses if needed to reduce redness or warmth in the skin.",
+      "4. Be Patient with Results",
+      "Pigmentation or spots may darken before flaking off — this is normal. Full results may take several sessions.",
+      "5. Follow Professional Instructions",
+      "Adhere to all aftercare advice given by your technician for best results and safety."
+    ]
+  },
+  {
+    "question": "How to Prepare for Waxing?",
+    "answer": [
+      "1. Let Hair Grow",
+      "Ensure hair is at least 1/4 inch (about 6 mm) long for effective waxing — usually about 2–3 weeks of growth.",
+      "2. Gently Exfoliate the Area",
+      "Exfoliate 24–48 hours before your appointment to remove dead skin and help prevent ingrown hairs.",
+      "3. Avoid Moisturizers or Oils",
+      "Do not apply lotion, oils, or creams on the day of your waxing session, as they can interfere with wax adhesion.",
+      "4. Avoid Sun Exposure & Tanning",
+      "Stay out of the sun and tanning beds for at least 24 hours before your wax to prevent extra sensitivity.",
+      "5. Take a Mild Pain Reliever (Optional)",
+      "You may take an over-the-counter pain reliever 30–60 minutes before your appointment if you’re sensitive to pain."
+    ]
+  },
+  {
+    "question": "What Not to Do After Waxing?",
+    "answer": [
+      "1. No Sun or Tanning",
+      "Avoid direct sun exposure, tanning beds, or hot weather for 24–48 hours.",
+      "2. No Heat or Friction",
+      "Skip hot baths, saunas, steam rooms, and intense workouts for at least 24 hours.",
+      "3. No Tight Clothing",
+      "Avoid tight jeans, leggings, or underwear that may rub against the freshly waxed area.",
+      "4. No Touching or Scratching",
+      "Keep hands off the treated area to prevent irritation or infection.",
+      "5. No Perfumed or Harsh Products",
+      "Avoid deodorants (for underarm waxing), body sprays, lotions with alcohol, or exfoliants for 24–48 hours."
+    ]
+  },
+  {
+    "question": "Post-Wax Care Tips",
+    "answer": [
+      "1. Use Soothing Products",
+      "Apply aloe vera gel or a calamine lotion to reduce redness and soothe the skin.",
+      "2. Exfoliate Gently (After 48–72 Hours)",
+      "Start gentle exfoliation a few days post-wax to prevent ingrown hairs.",
+      "3. Keep the Area Clean & Dry",
+      "Especially for bikini or underarm areas, maintain hygiene to prevent irritation."
+    ]
+  },
+  {
+    "question": "How to Prepare for Sugaring?",
+    "answer": [
+      "1. Let Hair Grow",
+      "Hair should be at least 1/8 to 1/4 inch long (about 3–6 mm) — usually 10–14 days of growth.",
+      "2. Gently Exfoliate",
+      "Exfoliate the area 24–48 hours before your appointment to help remove dead skin and reduce the chance of ingrown hairs.",
+      "3. Avoid Creams, Oils, or Lotions",
+      "Do not apply anything on the skin (no moisturizers, oils, or deodorants) on the day of your appointment.",
+      "4. Avoid Sun Exposure or Tanning",
+      "Stay out of direct sunlight and tanning beds for 24–48 hours before sugaring to prevent irritation.",
+      "5. Limit Caffeine or Alcohol",
+      "Avoid coffee or alcohol right before your appointment, as they can increase skin sensitivity."
+    ]
+  },
+  {
+    "question": "What Not to Do After Sugaring?",
+    "answer": [
+      "1. No Heat or Sweat",
+      "Avoid hot showers, baths, saunas, steam rooms, and heavy workouts for at least 24 hours.",
+      "2. No Sun or Tanning",
+      "Avoid direct sun exposure and tanning beds for 48 hours after sugaring.",
+      "3. No Tight Clothing",
+      "Wear loose clothing to allow the skin to breathe and avoid friction.",
+      "4. No Scratching or Touching",
+      "Do not touch or scratch the treated area — it can cause irritation or infection.",
+      "5. No Scented Products or Exfoliation (Yet)",
+      "Avoid perfumes, deodorants (for underarms), and exfoliating products for 24–48 hours after the procedure."
+    ]
+  },
+  {
+    "question": "Post-Sugaring Care Tips",
+    "answer": [
+      "1. Apply Soothing Products",
+      "Use aloe vera or a gentle, fragrance-free moisturizer or calamine lotion to calm the skin.",
+      "2. Start Gentle Exfoliation After 48–72 Hours",
+      "Begin exfoliating 2–3 times per week to prevent ingrown hairs and maintain smooth skin.",
+      "3. Keep Skin Clean & Dry",
+      "Especially for bikini or underarm areas — maintain hygiene and avoid tight or sweaty environments."
+    ]
+  }
 ]

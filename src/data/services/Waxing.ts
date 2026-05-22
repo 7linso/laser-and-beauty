@@ -26,4 +26,5 @@ export const WaxingData: ServicesPageTemplateProps = {
     "Razor irritation or cuts",
     "Dark shadow or stubble after shaving",
   ],
+  prep: ["Grow hair", "Exfoliate ", "Avoid Sun", "Don't overmoisturize"],
 };
